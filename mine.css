@@ -32,6 +32,8 @@
   white-space: normal;
 }
 
+.lrn .lrn_btn,
+.lrn.lrn-assess .lrn_btn,
 .lrn button.start-test-btn,
 .lrn button#lrn_assess_next_btn,
 .lrn button.lrn_btn.item-prev {
@@ -64,6 +66,21 @@
 .lrn button.close {
   border: 0 none !important ;
 }
+
+.lrn .lrn_start_playback,
+.lrn .lrn_volume_btn {
+  background-color: var(--white);
+  border-color: var(--border-color-dark);
+}
+
+.lrn .lrn_start_playback {
+  border-radius: 0.625rem 0 0 0.625rem;
+}
+
+.lrn .lrn .lrn_volume_btn {
+  border-radius: 0 0.625rem 0.625rem 0;
+}
+
 
 .lrn.lrn-assess {
   background-color: var(--background-color);
