@@ -83,15 +83,15 @@
 }
 
 .lrn_box_skin_wrapper {
-  border: 0 none;
+  border: 0 none !important;
 }
 
 .lrn_toolbar {
-  background-color: var(--background-color);
+  background-color: var(--background-color) !important;
 }
 
 .lrn_box_skin_wrapper .lrn_widget_footer .lrn_volume_control {
-  margin-left: -1px;
+  margin-left: -1px !important;
 }
 
 
