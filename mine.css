@@ -67,18 +67,19 @@
   border: 0 none !important ;
 }
 
-.lrn .lrn_start_playback,
-.lrn .lrn_volume_btn {
-  background-color: var(--white);
-  border-color: var(--border-color-dark);
+.lrn .lrn_player button.lrn_start_playback, 
+.lrn .lrn_player button.lrn_volume_btn {
+  background-color: var(--white) !important;
+  border: 1px solid var(--border-color) !important;
+  color: black !important;
 }
 
-.lrn .lrn_start_playback {
-  border-radius: 0.625rem 0 0 0.625rem;
+.lrn .lrn_player button.lrn_start_playback {
+  border-radius: 0.625rem 0 0 0.625rem !important;
 }
 
-.lrn .lrn .lrn_volume_btn {
-  border-radius: 0 0.625rem 0.625rem 0;
+.lrn .lrn_player button.lrn_volume_btn {
+  border-radius: 0 0.625rem 0.625rem 0 !important;
 }
 
 
