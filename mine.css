@@ -1,0 +1,196 @@
+
+  
+:root {
+  --primary-button-color: #0094FF;
+  --secondary-button-color: #D1E4FF;
+  --background-color: #F5EDFF;
+  --background-color-dark: #DDC4FF;
+  --border-color: #C0C6C8;
+  --border-color-dark: #6f757a;
+  --selected-answer: #D9F9FF;
+  --correct-answer: #D2F7AE;
+  --incorrect-answer: #FFE6E6;
+  --white: #FFF;
+}
+
+.lrn,
+#learnosity_assess,
+#learnosity_assess h1,
+#learnosity_assess h2,
+#learnosity_assess h3,
+#learnosity_assess h4,
+#learnosity_assess h5,
+#learnosity_assess h6 {
+    font-family: "Poppins";
+    /* font-family: "AvenirPrimaryHMHMath"; */
+}
+
+.lrn.lrn-assess .test-title-text {
+  font-size: 2.75rem;
+  font-weight: 700;
+  color: #3d3f3f;
+  white-space: normal;
+}
+
+.lrn button.start-test-btn,
+.lrn button#lrn_assess_next_btn,
+.lrn button.lrn_btn.item-prev {
+  background-color: var(--primary-button-color) !important;
+  border-color: var(--primary-button-color) !important;
+  border-radius: 0.625rem;
+  color: white !important;
+}
+
+.lrn button:first-child {
+  border-radius: 0.625rem 0 0 0.625rem !important;
+}
+
+.lrn button:last-child {
+  border-radius: 0 0.625rem 0.625rem 0 !important;
+}
+
+.lrn button:only-child {
+  border-radius: 0.625rem !important;
+}
+
+.lrn button.lrn_validate,
+.lrn button.test-submit {
+  background-color: var(--primary-button-color) !important;
+  border-color: var(--primary-button-color) !important;
+  border-radius: 0.625rem !important;
+  color: white !important;
+}
+
+.lrn button.close {
+  border: 0 none !important ;
+}
+
+.lrn.lrn-assess {
+  background-color: var(--background-color);
+}
+
+/* .lrn-assess .dialogs {
+  position: unset;
+  top: unset;
+  bottom: unset;
+  right: unset;
+  left: unset;
+} */
+
+.lrn-assess .lrn-dialog .lrn-dialog-body {
+  position: unset;
+  top: unset;
+  bottom: unset;
+  right: unset;
+  left: unset;
+}
+
+.lrn.lrn-assess .lrn-bottom-right-region.lrn-align-top {
+  position: unset;
+  top: unset;
+  bottom: unset;
+  right: unset;
+  left: unset;
+}
+
+.section.pad-sml,
+.lrn-region-group.lrn-group-middle,
+.lrn-region-group.lrn-group-bottom {
+  background-color: var(--background-color);
+  box-shadow: unset;
+}
+
+.section.pad-sml {
+  border: 0.25rem solid var(--border-color);
+}
+
+.lrn.lrn-assess .lrn-region-group .lrn-region.lrn-top-left-region {
+  flex: 1 1 70%;
+}
+
+.lrn-region-group.lrn-group-top {
+  background-color: white;
+  border: 0.25rem solid var(--border-color);
+  border-radius: 0.625rem 0.625rem 0 0;
+  margin-top: calc((2.1875rem + 1.25rem) * -1);
+  padding-top: calc(2.1875rem + 1.25rem);
+  padding: calc(1.875rem + 1.025rem);
+  transform: translateX(calc((1.875rem + 1.125rem) * -1));
+  width: calc(100% + ((1.875rem + 1.2rem) * 2));
+}
+
+.lrn-assess .lrn_response_wrapper  {
+  background-color: white;
+  /* border: calc(0.25rem / 2) solid var(--border-color-dark); */
+  border-radius: 0.625rem;
+  padding: calc(1.875rem + 1.025rem);
+}
+
+.lrn_widget.lrn_mcq .lrn_mcqgroup {
+  width: auto;
+}
+
+.lrn_widget.lrn_mcq .lrn_mcqgroup .lrn-mcq-option {
+  border: 0 none;
+  border-radius: 0.625rem;
+  padding: calc(1.025rem);
+}
+
+.lrn .lrn_possibilityList {
+  background-color: var(--background-color-dark);
+  border-color: var(--background-color-dark);
+}
+
+.lrn .lrn_possibilityList.lrn_list_bottom:before {
+  border-bottom-color: var(--background-color);
+}
+
+.lrn_qr.lrn_association .lrn_possibilityList .lrn_draggable,
+.lrn_widget .lrn_btn_drag {
+  border-radius: 1.000rem;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, .15), 0 8px 2px 0 rgba(0, 0, 0, .35);
+}
+
+.lrn_widget.lrn_mcq .lrn_mcqgroup:not(.lrn_mcqgroup-block) .lrn-mcq-option:hover,
+.lrn_widget.lrn_mcq .lrn_mcqgroup:not(.lrn_mcqgroup-block) .lrn-mcq-option:active {
+  background-color: var(--selected-answer);
+}
+
+.lrn_widget .lrn_valid, 
+.lrn_widget .lrn_selected {
+  background-color: var(--selected-answer);
+}
+
+.lrn_widget.lrn_mcq .lrn_mcqgroup .lrn-mcq-option > label.lrn-label:before {
+  font-size: 1.75rem;
+}
+
+.lrn_widget input[type=radio] {
+  width: 1.75rem;
+}
+
+.lrn_widget .lrn_incorrect {
+  background-color: var(--incorrect-answer) !important;
+  border: 0 none !important;
+  border-radius: 1.000rem !important;
+}
+
+.lrn_widget .lrn_correct {
+  background-color: var(--correct-answer) !important;
+  border: 0 none !important;
+  border-radius: 1.000rem !important;
+}
+
+.lrn.lrn-assess .app-panel.review-screen .panel-content {
+  background-color: var(--background-color);
+  border: .25rem solid var(--border-color);
+}
+
+.lrn.lrn-assess .app-panel.review-screen .panel-content .panel-footer {
+  background-color: var(--background-color);
+}
+
+.lrn.lrn-assess .app-panel.review-screen .panel-header {
+  background-color: var(--white);
+  border-color: var(--border-color);
+}
