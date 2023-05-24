@@ -86,11 +86,11 @@
   border: 0 none !important;
 }
 
-.lrn_toolbar {
+/* .lrn_toolbar {
   background-color: var(--background-color) !important;
   border-radius: 0.625rem;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, .25);
-}
+} */
 
 .lrn_box_skin_wrapper .lrn_widget_footer .lrn_volume_control {
   margin-left: -1px !important;
@@ -193,7 +193,7 @@
 .lrn_qr.lrn_association .lrn_possibilityList .lrn_draggable,
 .lrn_widget .lrn_btn_drag {
   border-radius: 1.000rem;
-  /* box-shadow: 0 4px 4px 0 rgba(0, 0, 0, .15), 0 8px 2px 0 rgba(0, 0, 0, .35); */
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, .15), 0 8px 2px 0 rgba(0, 0, 0, .35);
 }
 
 .lrn_widget.lrn_mcq .lrn_mcqgroup:not(.lrn_mcqgroup-block) .lrn-mcq-option:hover,
