@@ -88,6 +88,8 @@
 
 .lrn_toolbar {
   background-color: var(--background-color) !important;
+  border-radius: 0.625rem;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, .25);
 }
 
 .lrn_box_skin_wrapper .lrn_widget_footer .lrn_volume_control {
@@ -138,15 +140,23 @@
   flex: 1 1 70%;
 }
 
-.lrn-region-group.lrn-group-top {
+.lrn-region-group.lrn-group-top,
+.lrn-region-group.lrn-group-middle, 
+.lrn-region-group.lrn-group-bottom {
   background-color: white;
   border: 0.25rem solid var(--border-color);
   border-radius: 0.625rem 0.625rem 0 0;
-  margin-top: calc((2.1875rem + 1.25rem) * -1);
-  padding-top: calc(2.1875rem + 1.25rem);
-  padding: calc(1.875rem + 1.025rem);
-  transform: translateX(calc((1.875rem + 1.125rem) * -1));
-  width: calc(100% + ((1.875rem + 1.2rem) * 2));
+  /* margin-top: calc((2.1875rem + 1.25rem) * -1); */
+  padding: calc(1.875rem + 0.625rem);
+  transform: translateX(calc((1.875rem + 0.625rem) * -1));
+  width: calc(100% + ((1.875rem + 0.625rem) * 2));
+}
+
+.lrn-region-group.lrn-group-middle, 
+.lrn-region-group.lrn-group-bottom {
+  background-color: var(--background-color);
+  border-radius: unset;
+  padding-top: unset;
 }
 
 .lrn-assess .lrn_response_wrapper  {
