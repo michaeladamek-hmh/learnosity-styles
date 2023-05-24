@@ -22,7 +22,7 @@
 #learnosity_assess h5,
 #learnosity_assess h6 {
     font-family: "Poppins";
-    /* font-family: "AvenirPrimaryHMHMath"; */
+    font-family: "AvenirPrimaryHMHMath";
 }
 
 .lrn.lrn-assess .test-title-text {
@@ -156,6 +156,7 @@
 .lrn-region-group.lrn-group-bottom {
   background-color: var(--background-color);
   border-radius: unset;
+  border-top: unset;
   padding-top: unset;
 }
 
@@ -192,7 +193,7 @@
 .lrn_qr.lrn_association .lrn_possibilityList .lrn_draggable,
 .lrn_widget .lrn_btn_drag {
   border-radius: 1.000rem;
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, .15), 0 8px 2px 0 rgba(0, 0, 0, .35);
+  /* box-shadow: 0 4px 4px 0 rgba(0, 0, 0, .15), 0 8px 2px 0 rgba(0, 0, 0, .35); */
 }
 
 .lrn_widget.lrn_mcq .lrn_mcqgroup:not(.lrn_mcqgroup-block) .lrn-mcq-option:hover,
@@ -226,12 +227,12 @@
 }
 
 .lrn.lrn-assess .app-panel.review-screen .panel-content {
-  background-color: var(--background-color);
-  border: .25rem solid var(--border-color);
+  background-color: var(--background-color) !important;
+  border: .25rem solid var(--border-color) !important;
 }
 
 .lrn.lrn-assess .app-panel.review-screen .panel-content .panel-footer {
-  background-color: var(--background-color);
+  background-color: var(--background-color) !important;
 }
 
 .lrn.lrn-assess .app-panel.review-screen .panel-header {
