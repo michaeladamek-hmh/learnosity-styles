@@ -86,11 +86,11 @@
   border: 0 none !important;
 }
 
-/* .lrn_toolbar {
+.lrn_toolbar {
   background-color: var(--background-color) !important;
-  border-radius: 0.625rem;
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, .25);
-} */
+  /* border-radius: 0.625rem;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, .25); */
+}
 
 .lrn_box_skin_wrapper .lrn_widget_footer .lrn_volume_control {
   margin-left: -1px !important;
@@ -182,12 +182,12 @@
 }
 
 .lrn .lrn_possibilityList {
-  background-color: var(--background-color-dark);
-  border-color: var(--background-color-dark);
+  background-color: var(--background-color-dark) !important;
+  border-color: var(--background-color-dark) !important;
 }
 
 .lrn .lrn_possibilityList.lrn_list_bottom:before {
-  border-bottom-color: var(--background-color);
+  border-bottom-color: var(--background-color) !important;
 }
 
 .lrn_qr.lrn_association .lrn_possibilityList .lrn_draggable,
@@ -212,6 +212,13 @@
 
 .lrn_widget input[type=radio] {
   width: 1.75rem;
+}
+
+.lrn .lrn-possible-answer:hover,
+.lrn .lrn-possible-answer:active {
+  background-color: var(--selected-answer) !important;
+  border: 0 none !important;
+  border-radius: 1.000rem !important;
 }
 
 .lrn_widget .lrn_incorrect {
