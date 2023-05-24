@@ -159,6 +159,10 @@
   padding-top: unset;
 }
 
+.slides-control:after {
+  background-image: unset !important;
+}
+
 .lrn-assess .lrn_response_wrapper  {
   background-color: white;
   /* border: calc(0.25rem / 2) solid var(--border-color-dark); */
