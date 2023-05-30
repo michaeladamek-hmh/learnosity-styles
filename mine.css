@@ -197,6 +197,14 @@
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, .15), 0 8px 2px 0 rgba(0, 0, 0, .35);
 }
 
+.lrn-mcq-option.lrn_selected:not(.lrn_valid):not(.lrn_correct):not(.lrn_incorrect) {
+  background-color: var(--selected-answer) !important;
+}
+
+.lrn-mcq-option.lrn_selected .lrn-label {
+  background-color: var(--selected-answer) !important;
+}
+
 .lrn_widget.lrn_mcq .lrn_mcqgroup:not(.lrn_mcqgroup-block) .lrn-mcq-option:hover,
 .lrn_widget.lrn_mcq .lrn_mcqgroup:not(.lrn_mcqgroup-block) .lrn-mcq-option:active {
   background-color: var(--selected-answer);
