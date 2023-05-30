@@ -14,6 +14,10 @@
   --white: #FFF;
 }
 
+.lrn {
+  font-size: 1.875rem;
+}
+
 .lrn,
 #learnosity_assess,
 #learnosity_assess h1,
@@ -52,7 +56,9 @@
   background-color: var(--primary-button-color) !important;
   border-color: var(--primary-button-color) !important;
   border-radius: 0.625rem;
+  box-shadow: inset 0 -2px 2px 3px #D5DADC;
   color: white !important;
+  font-size: 1.5rem;
 }
 
 .lrn button:first-child {
@@ -88,10 +94,12 @@
 
 .lrn .lrn_player button.lrn_start_playback {
   border-radius: 0.625rem 0 0 0.625rem !important;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .25);
 }
 
 .lrn .lrn_player button.lrn_volume_btn {
   border-radius: 0 0.625rem 0.625rem 0 !important;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .25);
 }
 
 .lrn_box_skin_wrapper {
@@ -180,6 +188,7 @@
   background-color: white;
   /* border: calc(0.25rem / 2) solid var(--border-color-dark); */
   border-radius: 0.625rem;
+  box-shadow: 0 2px 2 0 rgba(133, 63, 186, 15%) ;
   padding: calc(1.875rem + 1.025rem);
 }
 
