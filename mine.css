@@ -23,8 +23,8 @@
 #learnosity_assess h6 {
     /* font-family: "Poppins";
     font-family: "AvenirPrimaryHMHMath"; */
-    font-family: "AvenirPrimaryHMHMath" !important;
-}
+    /* font-family: "AvenirPrimaryHMHMath" !important; */
+} 
 
 .lrn.lrn-assess .test-title-text {
   font-size: 2.75rem;
@@ -193,12 +193,12 @@
 
 .lrn_qr.lrn_association .lrn_possibilityList .lrn_draggable,
 .lrn_widget .lrn_btn_drag {
-  border-radius: 1.000rem;
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, .15), 0 8px 2px 0 rgba(0, 0, 0, .35);
+  border-radius: 1.000rem !important;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, .15), 0 8px 2px 0 rgba(0, 0, 0, .35) !important;
 }
 
 .lrn-mcq-option.lrn_selected:not(.lrn_valid):not(.lrn_correct):not(.lrn_incorrect) {
-  border-left-color: unset !important;
+  border-left-color: transparent !important;
   background-color: var(--selected-answer) !important;
 }
 
