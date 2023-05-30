@@ -28,7 +28,7 @@
 } 
 
 .lrn-assess .items .progress {
-  width: calc(100% + calc(100% + ((1.875rem + 0.625rem) * 2)));
+  width: calc(100% + ((1.875rem + 0.625rem) * 2));
   transform: translateX(calc((1.875rem + 0.625rem) * -1));
 }
 
