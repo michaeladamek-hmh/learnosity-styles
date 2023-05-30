@@ -14,8 +14,14 @@
   --white: #FFF;
 }
 
-.lrn {
+.lrn,
+.lrn.lrn_font_size_normal, 
+.lrn.lrn_font_size_normal .lrn {
   font-size: 1.875rem;
+}
+
+.lrn .lrn_btn {
+  font-size: 1.5rem !important;
 }
 
 .lrn,
@@ -56,9 +62,8 @@
   background-color: var(--primary-button-color) !important;
   border-color: var(--primary-button-color) !important;
   border-radius: 0.625rem;
-  box-shadow: inset 0 -2px 2px 3px #D5DADC;
+  /* box-shadow: inset 0 -2px 2px 3px #D5DADC; */
   color: white !important;
-  font-size: 1.5rem;
 }
 
 .lrn button:first-child {
@@ -188,7 +193,7 @@
   background-color: white;
   /* border: calc(0.25rem / 2) solid var(--border-color-dark); */
   border-radius: 0.625rem;
-  box-shadow: 0 2px 2 0 rgba(133, 63, 186, 15%) ;
+  box-shadow: 0 2px 2px 0 rgba(133, 63, 186, 15%) ;
   padding: calc(1.875rem + 1.025rem);
 }
 
