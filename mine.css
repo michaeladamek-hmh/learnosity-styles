@@ -7,6 +7,7 @@
   --background-color-dark: #DDC4FF;
   --border-color: #C0C6C8;
   --border-color-dark: #6f757a;
+  --progress-bar: #2390F7;
   --selected-answer: #D9F9FF;
   --correct-answer: #D2F7AE;
   --incorrect-answer: #FFE6E6;
@@ -25,6 +26,16 @@
     font-family: "AvenirPrimaryHMHMath"; */
     /* font-family: "AvenirPrimaryHMHMath" !important; */
 } 
+
+.lrn-assess .items .progress {
+  width: calc(100% + calc(100% + ((1.875rem + 0.625rem) * 2)));
+  transform: translateX(calc((1.875rem + 0.625rem) * -1));
+}
+
+.lrn-assess .items .progress span {
+  background-color: var(--progress-bar);
+}
+
 
 .lrn.lrn-assess .test-title-text {
   font-size: 2.75rem;
