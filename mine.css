@@ -21,8 +21,9 @@
 #learnosity_assess h4,
 #learnosity_assess h5,
 #learnosity_assess h6 {
-    font-family: "Poppins";
-    font-family: "AvenirPrimaryHMHMath";
+    /* font-family: "Poppins";
+    font-family: "AvenirPrimaryHMHMath"; */
+    font-family: "AvenirPrimaryHMHMath" !important;
 }
 
 .lrn.lrn-assess .test-title-text {
