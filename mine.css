@@ -11,13 +11,15 @@
   --selected-answer: #D9F9FF;
   --correct-answer: #D2F7AE;
   --incorrect-answer: #FFE6E6;
+  --text-color: #424242;
   --white: #FFF;
 }
 
 .lrn,
 .lrn.lrn_font_size_normal, 
 .lrn.lrn_font_size_normal .lrn {
-  font-size: 1.875rem;
+  font-size: 1.875rem !important;
+  color: var(--text-color);
 }
 
 .lrn .lrn_btn {
