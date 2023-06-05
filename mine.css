@@ -217,7 +217,7 @@
   background-color: white;
   /* border: calc(0.25rem / 2) solid var(--border-color-dark); */
   border-radius: 0.625rem;
-  box-shadow: 0 2px 2px 0 rgba(133, 63, 186, 15%) ;
+  /* box-shadow: 0 2px 2px 0 rgba(133, 63, 186, 15%) ; */
   padding: calc(1.875rem + 1.025rem);
 }
 
