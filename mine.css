@@ -34,8 +34,8 @@
 #learnosity_assess h4,
 #learnosity_assess h5,
 #learnosity_assess h6 {
-    /* font-family: "Poppins";
-    font-family: "AvenirPrimaryHMHMath"; */
+    font-family: "Poppins";
+    /* font-family: "AvenirPrimaryHMHMath"; */
     /* font-family: "AvenirPrimaryHMHMath" !important; */
 } 
 
@@ -64,20 +64,24 @@
   background-color: var(--primary-button-color) !important;
   border-color: var(--primary-button-color) !important;
   border-radius: 0.625rem;
-  /* box-shadow: inset 0 -2px 2px 3px #D5DADC; */
+  /* box-shadow: inset 0 -2px 2px 3px #004ADC; */
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .25);
   color: white !important;
 }
 
 .lrn button:first-child {
   border-radius: 0.625rem 0 0 0.625rem !important;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .25);
 }
 
 .lrn button:last-child {
   border-radius: 0 0.625rem 0.625rem 0 !important;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .25);
 }
 
 .lrn button:only-child {
   border-radius: 0.625rem !important;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .25);
 }
 
 .lrn button.lrn_validate,
@@ -85,11 +89,13 @@
   background-color: var(--primary-button-color) !important;
   border-color: var(--primary-button-color) !important;
   border-radius: 0.625rem !important;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .25);
   color: white !important;
 }
 
 .lrn button.close {
-  border: 0 none !important ;
+  border: 0 none !important;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .25);
 }
 
 .lrn .lrn_player button.lrn_start_playback, 
@@ -97,6 +103,7 @@
   background-color: var(--white) !important;
   border: 1px solid var(--border-color) !important;
   color: black !important;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .25);
 }
 
 .lrn .lrn_player button.lrn_start_playback {
