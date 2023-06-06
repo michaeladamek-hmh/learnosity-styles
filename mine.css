@@ -273,6 +273,10 @@
   font-size: 1.75rem;
 }
 
+.lrn_response_input_wrapper {
+  border: 0 none !important;
+}
+
 .lrn_widget input[type=radio] {
   width: 1.75rem;
 }
