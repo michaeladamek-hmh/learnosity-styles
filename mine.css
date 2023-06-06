@@ -235,7 +235,7 @@
 }
 
 .lrn .lrn_possibilityList {
-  background-color: var(--background-containe) !important;
+  background-color: var(--background-container) !important;
   border-color: var(--background-color-dark) !important;
   border-radius: 0.625rem;
 }
