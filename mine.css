@@ -294,7 +294,7 @@
   border-radius: 1.000rem !important;
 }
 
-.lrn_widget .lrn-response-validate-wrapper.lrn_incorrect {  
+.lrn_widget .lrn_response_input_wrapper.lrn_incorrect {  
   background-color: var(--white) !important;
   border: 4px solid var(--red) !important;
   border-radius: 0.625rem;
@@ -306,7 +306,7 @@
   border-radius: 1.000rem !important;
 }
 
-.lrn_widget .lrn-response-validate-wrapper.lrn_correct {
+.lrn_widget .lrn_response_input_wrapper.lrn_correct {
   background-color: var(--white) !important;
   border: 4px solid var(--green) !important;
   border-radius: 0.625rem;
