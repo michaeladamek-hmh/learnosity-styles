@@ -180,9 +180,13 @@
   box-shadow: unset;
 }
 
-.section.pad-sml {
-  border: 0.25rem solid var(--border-color);
+.lrn_question > p {
+  max-width: 41.25rem;
 }
+
+/* .section.pad-sml {
+  border: 0.25rem solid var(--border-color);
+} */
 
 .lrn.lrn-assess .lrn-region-group .lrn-region.lrn-top-left-region {
   flex: 1 1 70%;
