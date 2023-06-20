@@ -72,8 +72,8 @@
   white-space: normal;
 }
 
-.lrn button,
-.lrn .lrn_btn,
+.lrn button:not(.lrn-keyboard-holder),
+.lrn .lrn_btn:not(.lrn-keyboard-holder),
 .lrn.lrn-assess .lrn_btn,
 .lrn button.start-test-btn,
 .lrn button#lrn_assess_next_btn,
@@ -86,15 +86,15 @@
   color: white !important;
 }
 
-.lrn button:first-child {
+.lrn button:first-child:not(.lrn-keyboard-holder) {
   border-radius: 0.625rem 0 0 0.625rem !important;
 }
 
-.lrn button:last-child {
+.lrn button:last-child:not(.lrn-keyboard-holder) {
   border-radius: 0 0.625rem 0.625rem 0 !important;
 }
 
-.lrn button:only-child {
+.lrn button:only-child:not(.lrn-keyboard-holder) {
   border-radius: 0.625rem !important;
 }
 
