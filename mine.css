@@ -72,8 +72,8 @@
   white-space: normal;
 }
 
-.lrn button:not(.lrn-keyboard-holder),
-.lrn .lrn_btn:not(.lrn-keyboard-holder),
+.lrn button,
+.lrn .lrn_btn,
 .lrn.lrn-assess .lrn_btn,
 .lrn button.start-test-btn,
 .lrn button#lrn_assess_next_btn,
@@ -84,17 +84,18 @@
   /* box-shadow: inset 0 -2px 2px 3px #004ADC; */
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .25) !important;
   color: white !important;
+  padding: 1rem 1.5rem !important;
 }
 
-.lrn button:first-child:not(.lrn-keyboard-holder) {
+.lrn button:first-child {
   border-radius: 0.625rem 0 0 0.625rem !important;
 }
 
-.lrn button:last-child:not(.lrn-keyboard-holder) {
+.lrn button:last-child {
   border-radius: 0 0.625rem 0.625rem 0 !important;
 }
 
-.lrn button:only-child:not(.lrn-keyboard-holder) {
+.lrn button:only-child {
   border-radius: 0.625rem !important;
 }
 
@@ -128,6 +129,14 @@
 .lrn .lrn_player button.lrn_volume_btn {
   border-radius: 0 0.625rem 0.625rem 0 !important;
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .25);
+}
+
+.lrn div.lrn-keyboard-holder button.lrn_btn_grid {
+  background-color: unset !important;
+  border-color: unset !important;
+  border-radius: unset !important;
+  color: unset !important;
+
 }
 
 .lrn_box_skin_wrapper {
