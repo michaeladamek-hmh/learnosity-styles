@@ -10,6 +10,7 @@
   /* --background-color-dark: #DDC4FF; */
   --background-color-dark: var(--background-color);
   --background-container: #D9EDFB;
+  --background-table: #DBEFFD;
   --border-color: #C0C6C8;
   --border-color-dark: #6f757a;
   --progress-bar: #2390F7;
@@ -327,6 +328,24 @@
   background-color: var(--white) !important;
   border: 4px solid var(--green) !important;
   border-radius: 0.625rem;
+}
+
+.lrn_choicematrix_type_table {
+  border: 2px solid var(--background-table) !important;
+}
+
+.lrn_choicematrix_type_table > thead {
+  background-color: var(--background-table) !important;
+}
+
+.lrn_choicematrix_type_table > table > th,
+.lrn_choicematrix_type_table > table > td {
+  border: 2px solid var(--background-table) !important;
+}
+
+.lrn_choicematrix_type_table > table > td.lrn_selected,
+.lrn_choicematrix_type_table > table > td.lrn_option:hover {
+  background-color: var(--selected-answer) !important;
 }
 
 .lrn.lrn-assess .app-panel.review-screen .panel-content {
