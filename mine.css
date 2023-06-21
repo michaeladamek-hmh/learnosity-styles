@@ -125,18 +125,19 @@
   border: 1px solid var(--border-color) !important;
   color: black !important;
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .25);
+  font-size: unset !important;
+  padding: unset !important;
 }
 
 .lrn .lrn_player button.lrn_start_playback {
   border-radius: 0.625rem 0 0 0.625rem !important;
-  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .25);
 }
 
 .lrn .lrn_player button.lrn_volume_btn {
   border-radius: 0 0.625rem 0.625rem 0 !important;
-  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .25);
 }
 
+.lrn div.lrn-keyboard-holder button
 .lrn div.lrn-keyboard-holder button.lrn_btn_grid {
   background-color: unset !important;
   border-color: unset !important;
@@ -294,10 +295,6 @@
 
 .lrn_response_input_wrapper {
   border: 0 none !important;
-}
-
-.lrn_widget input[type=radio] {
-  width: 1.75rem;
 }
 
 .lrn .lrn-possible-answer:hover,
