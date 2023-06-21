@@ -338,13 +338,14 @@
   background-color: var(--background-table) !important;
 }
 
-.lrn_choicematrix_type_table > th,
-.lrn_choicematrix_type_table > td {
+.lrn_choicematrix_type_table .lrn_choicematrix_cell
+.lrn_choicematrix_type_table th.lrn_choicematrix_cell,
+.lrn_choicematrix_type_table td.lrn_choicematrix_cell {
   border: 2px solid var(--background-table) !important;
 }
 
-.lrn_choicematrix_type_table > td.lrn_selected,
-.lrn_choicematrix_type_table > td.lrn_option:hover {
+.lrn_choicematrix_type_table td.lrn_selected,
+.lrn_choicematrix_type_table td.lrn_option:hover {
   background-color: var(--selected-answer) !important;
 }
 
