@@ -58,7 +58,7 @@
 
 .lrn_widget input[type="radio"],
 .lrn_widget input[type="checkbox"] {
-  transform: scale(1.5);
+  transform: scale(1.75);
 }
 
 .lrn-assess .items .progress {
@@ -140,10 +140,10 @@
 
 .lrn div.lrn-keyboard-holder button,
 .lrn div.lrn-keyboard-holder button.lrn_btn_grid {
-  background-color: unset !important;
-  border-color: unset !important;
+  background-color: inherit !important;
+  border: inherit !important;
   border-radius: unset !important;
-  color: unset !important;
+  color: inherit !important;
 
 }
 
