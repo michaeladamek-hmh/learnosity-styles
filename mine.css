@@ -6,6 +6,7 @@
   /* --background-color: #F5EDFF; */
   --background-color: #fff;
   --background-color-purple: #F5EDFF;
+  --background-color-blue: #E6F0FF;
   /* --background-color-dark: #DDC4FF; */
   --background-color-dark: var(--background-color);
   --background-container: #D9EDFB;
@@ -221,7 +222,7 @@
 }
 
 .lrn-region-group.lrn-group-top {
-  background-color: var(--background-color-purple);
+  background-color: var(--background-color-blue);
 }
 
 .lrn-region-group.lrn-group-middle, 
