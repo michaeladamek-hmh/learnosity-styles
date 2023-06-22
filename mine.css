@@ -352,16 +352,19 @@
 }
 
 .lrn_choicematrix_type_table .lrn_choicematrix_cell.lrn_correct {
-  border-color: var(--green) !important;
+  border: 4px solid var(--green) !important;
 }
 
 .lrn_choicematrix_type_table .lrn_choicematrix_cell.lrn_incorrect {
-  border-color: var(--red) !important;
+  border: 4px solid var(--red) !important;
 }
 
 .lrn_choicematrix_type_table .lrn_choicematrix_cell.lrn_correct:after,
-.lrn_choicematrix_type_table .lrn_choicematrix_cell.lrn_incorrect:after {
-  content: unset;
+.lrn_choicematrix_type_table .lrn_choicematrix_cell.lrn_incorrect:after,
+.lrn_choicematrix_type_table .lrn_choicematrix_cell.lrn_correct:before,
+.lrn_choicematrix_type_table .lrn_choicematrix_cell.lrn_incorrect:before  {
+  content: unset !important;
+  color: transparent !important;
 }
 
 .lrn_linereader_overlay button {
