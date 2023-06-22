@@ -351,10 +351,17 @@
   background-color: var(--selected-answer) !important;
 }
 
-.lrn_choicematrix_type_table .lrn_choicematrix_cell.lrn_enabled {
-  background-color: var(--white) !important;
-  border: 2.5px solid var(--green) !important;
-  border-radius: 0.625rem;
+.lrn_choicematrix_type_table .lrn_choicematrix_cell.lrn_correct {
+  border-color: var(--green) !important;
+}
+
+.lrn_choicematrix_type_table .lrn_choicematrix_cell.lrn_incorrect {
+  border-color: var(--red) !important;
+}
+
+.lrn_choicematrix_type_table .lrn_choicematrix_cell.lrn_correct:after,
+.lrn_choicematrix_type_table .lrn_choicematrix_cell.lrn_incorrect:after {
+  content: unset;
 }
 
 .lrn_linereader_overlay button {
