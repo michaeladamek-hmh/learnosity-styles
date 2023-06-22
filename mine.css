@@ -327,18 +327,15 @@
 
 .lrn_choicematrix_type_table,
 .lrn_choicematrix_type_table th,
-.lrn_choicematrix_type_table td {
-  border: 2.5px solid var(--background-table) !important;
+.lrn_choicematrix_type_table,
+.lrn_choicematrix_type_table .lrn_choicematrix_cell,
+.lrn_choicematrix_type_table th.lrn_choicematrix_cell,
+.lrn_choicematrix_type_table td.lrn_choicematrix_cell {
+  border: 4.5px solid var(--background-table) !important;
 }
 
 .lrn_choicematrix_type_table > thead {
   background-color: var(--background-table) !important;
-}
-
-.lrn_choicematrix_type_table .lrn_choicematrix_cell
-.lrn_choicematrix_type_table th.lrn_choicematrix_cell,
-.lrn_choicematrix_type_table td.lrn_choicematrix_cell {
-  border: 2.5px solid var(--background-table) !important;
 }
 
 .lrn_choicematrix_type_table td.lrn_selected,
@@ -347,11 +344,11 @@
 }
 
 .lrn_choicematrix_type_table .lrn_choicematrix_cell.lrn_correct {
-  border: 4px solid var(--green) !important;
+  border: 5px solid var(--green) !important;
 }
 
 .lrn_choicematrix_type_table .lrn_choicematrix_cell.lrn_incorrect {
-  border: 4px solid var(--red) !important;
+  border: 5px solid var(--red) !important;
 }
 
 .lrn_choicematrix_type_table .lrn_choicematrix_cell.lrn_correct:after,
