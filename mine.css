@@ -1,19 +1,20 @@
 
   
 :root {
-  --primary-button-color: #0094FF;
+  /* --primary-button-color: #0094FF; */
+  --primary-button-color: #065EC2;
   --secondary-button-color: #D1E4FF;
   /* --background-color: #F5EDFF; */
-  --background-color: #fff;
+  --background-color: #FFF;
   --background-color-purple: #F5EDFF;
   --background-color-blue: #E6F0FF;
-  /* --background-color-dark: #DDC4FF; */
+  /* --background-color-dark: #008CF1; */
   --background-color-dark: var(--background-color);
   --background-container: #D9EDFB;
   --background-table: #DBEFFD;
   --border-color: #C0C6C8;
   --border-color-dark: #6f757a;
-  --progress-bar: #2390F7;
+  --progress-bar: #2723F7;
   --selected-answer: #D9F9FF;
   --correct-answer: #D2F7AE;
   --incorrect-answer: #FFE6E6;
