@@ -330,8 +330,10 @@
   border-radius: 0.625rem;
 }
 
-.lrn_choicematrix_type_table {
-  border: 2px solid var(--background-table) !important;
+.lrn_choicematrix_type_table,
+.lrn_choicematrix_type_table th,
+.lrn_choicematrix_type_table td {
+  border: 2.5px solid var(--background-table) !important;
 }
 
 .lrn_choicematrix_type_table > thead {
@@ -341,12 +343,28 @@
 .lrn_choicematrix_type_table .lrn_choicematrix_cell
 .lrn_choicematrix_type_table th.lrn_choicematrix_cell,
 .lrn_choicematrix_type_table td.lrn_choicematrix_cell {
-  border: 2px solid var(--background-table) !important;
+  border: 2.5px solid var(--background-table) !important;
 }
 
 .lrn_choicematrix_type_table td.lrn_selected,
 .lrn_choicematrix_type_table td.lrn_option:hover {
   background-color: var(--selected-answer) !important;
+}
+
+.lrn_choicematrix_type_table .lrn_choicematrix_cell.lrn_enabled {
+  background-color: var(--white) !important;
+  border: 2.5px solid var(--green) !important;
+  border-radius: 0.625rem;
+}
+
+.lrn_linereader_overlay button {
+  background-color: inherit !important;
+  border: 0 none !important;
+  border-radius: unset !important;
+  box-shadow: unset !important;
+  font-size: inherit !important;
+  line-height: inherit !important;
+  padding: inherit !important;
 }
 
 .lrn.lrn-assess .app-panel.review-screen .panel-content {
