@@ -40,11 +40,8 @@
 .lrn.lrn_font_size_normal, 
 .lrn.lrn_font_size_normal .lrn {
   font-size: 1.875rem !important;
+  font-size: 30px !important;
   color: var(--text-color);
-}
-
-.lrn .lrn_btn {
-  font-size: 1.5rem !important;
 }
 
 .lrn,
@@ -71,7 +68,6 @@
 .lrn-assess .items .progress span {
   background-color: var(--progress-bar);
 }
-
 
 .lrn.lrn-assess .test-title-text {
   font-size: 2.75rem;
@@ -146,7 +142,6 @@
   border: inherit !important;
   border-radius: unset !important;
   color: inherit !important;
-
 }
 
 .lrn_box_skin_wrapper {
@@ -207,9 +202,9 @@
   border: 0.25rem solid var(--border-color);
 } */
 
-.lrn.lrn-assess .lrn-region-group .lrn-region.lrn-top-left-region {
+/* .lrn.lrn-assess .lrn-region-group .lrn-region.lrn-top-left-region {
   flex: 1 1 70%;
-}
+} */
 
 .lrn-region-group.lrn-group-top,
 .lrn-region-group.lrn-group-middle, 
@@ -217,7 +212,6 @@
   background-color: white;
   border: 0.25rem solid var(--border-color);
   border-radius: 0.625rem 0.625rem 0 0;
-  /* margin-top: calc((2.1875rem + 1.25rem) * -1); */
   padding: calc(1.875rem + 0.625rem);
   transform: translateX(calc((1.875rem + 0.625rem) * -1));
   width: calc(100% + ((1.875rem + 0.625rem) * 2));
