@@ -97,7 +97,7 @@
 }
 
 .lrn button.lrn_btn.item-prev:first-child {
-  padding: inherit;
+  padding: .4em .9em !important;
 }
 
 .lrn button:last-child {
@@ -105,7 +105,7 @@
 }
 
 .lrn button.lrn_btn.item-next:last-child {
-  padding: inherit;
+  padding: .4em .9em !important;
 }
 
 .lrn button:only-child {
@@ -392,5 +392,5 @@
 }
 
 .pagination.lrn-assess-pagination {
-  font-size: inherit !important;
+  font-size: 20px !important;
 }
