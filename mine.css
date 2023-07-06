@@ -88,7 +88,7 @@
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .25) !important;
   color: white !important;
   font-size: 22px !important;
-  line-height: 1.2 !important;
+  /* line-height: 1.2 !important; */
   padding: var(--button-padding-tb) var(--button-padding-lr) !important;
 }
 
@@ -97,6 +97,7 @@
 }
 
 .lrn button.lrn_btn.item-prev:first-child {
+  line-height: 1.25;
   padding: .4em .9em !important;
 }
 
@@ -105,6 +106,7 @@
 }
 
 .lrn button.lrn_btn.item-next:last-child {
+  line-height: 1.25;
   padding: .4em .9em !important;
 }
 
@@ -158,8 +160,6 @@
 
 .lrn_toolbar {
   background-color: var(--background-color) !important;
-  /* border-radius: var(--border-radius);
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, .25); */
 }
 
 .lrn_box_skin_wrapper .lrn_widget_footer .lrn_volume_control {
@@ -375,6 +375,11 @@
   font-size: inherit !important;
   line-height: inherit !important;
   padding: inherit !important;
+}
+
+button.lrn_linereader-toggle {
+  width: fit-content;
+  white-space: nowrap;
 }
 
 .lrn.lrn-assess .app-panel.review-screen .panel-content {
