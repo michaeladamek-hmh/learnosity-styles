@@ -237,7 +237,7 @@
 }
 
 .lrn-region-group.lrn-region-group.lrn-group-middle {
-  padding: unset;
+  /* padding: unset; */
 }
 
 .slides-control:after {
