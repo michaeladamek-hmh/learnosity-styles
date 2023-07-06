@@ -1,21 +1,26 @@
 
   
 :root {
+  /* -- Grade Specific -- */
+  --border-radius: 0.75rem;
+  --font-size: 30px;
+  --button-padding-tb: 20px;
+  --button-padding-lr: 28px; 
+  /* -- Universal --*/
   --primary-button-color: #065EC2;
   --secondary-button-color: #D1E4FF;
+  --progress-bar: #2723F7;
+
   --background-color: #FFF;
   --background-color-purple: #F5EDFF;
   --background-color-blue: #E6F0FF;
   --background-color-dark: var(--background-color);
   --background-container: #D9EDFB;
   --background-table: #DBEFFD;
+
   --border-color: #C0C6C8;
   --border-color-dark: #6f757a;
-  --border-radius: 0.625rem;
-  --font-size: 30px;
-  --button-padding-tb: 20px;
-  --button-padding-lr: 28px; 
-  --progress-bar: #2723F7;
+  
   --selected-answer: #D9F9FF;
   --correct-answer: #D2F7AE;
   --incorrect-answer: #FFE6E6;
@@ -237,7 +242,7 @@
 }
 
 .lrn-region-group.lrn-region-group.lrn-group-middle {
-  /* padding: unset; */
+  padding-bottom: unset;
 }
 
 .slides-control:after {
