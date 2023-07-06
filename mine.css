@@ -217,7 +217,6 @@
 .lrn-region-group.lrn-group-top,
 .lrn-region-group.lrn-group-middle, 
 .lrn-region-group.lrn-group-bottom {
-  background-color: white;
   border: 0.25rem solid var(--border-color);
   border-radius: var(--border-radius) var(--border-radius) 0 0;
   padding: calc(1.875rem + 0.625rem);
@@ -237,6 +236,10 @@
   padding-top: unset;
 }
 
+.lrn-region-group.lrn-region-group.lrn-group-middle {
+  padding: unset;
+}
+
 .slides-control:after {
   background-image: unset !important;
 }
@@ -246,7 +249,7 @@
   /* border: calc(0.25rem / 2) solid var(--border-color-dark); */
   border-radius: var(--border-radius);
   /* box-shadow: 0 2px 2px 0 rgba(133, 63, 186, 15%) ; */
-  padding: calc(1.875rem + 1.025rem);
+  /* padding: calc(1.875rem + 1.025rem); */
 }
 
 .lrn_widget.lrn_mcq .lrn_mcqgroup {
