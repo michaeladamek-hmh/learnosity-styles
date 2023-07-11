@@ -407,3 +407,13 @@ button.lrn_linereader-toggle {
 .pagination.lrn-assess-pagination {
   font-size: 20px !important;
 }
+
+.lrn-toolbar .lrn-wysihtml-toolbar > .lrn_btn {
+  background-color: inherit !important;
+  border-color: inherit !important;
+  border-radius: unset !important;
+  box-shadow: unset !important;
+  font-size: inherit !important;
+  line-height: inherit !important;
+  padding: inherit !important;
+}
