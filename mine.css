@@ -93,7 +93,7 @@
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .25) !important;
   color: white !important;
   font-size: 22px !important;
-  /* line-height: 1.2 !important; */
+  line-height: 1.25 !important;
   padding: var(--button-padding-tb) var(--button-padding-lr) !important;
 }
 
@@ -390,6 +390,24 @@ button.lrn_linereader-toggle {
   white-space: nowrap;
 }
 
+.lrn-toolbar .lrn-wysihtml-toolbar > .lrn_btn {
+  background-color: inherit !important;
+  border-color: inherit !important;
+  border-radius: unset !important;
+  box-shadow: unset !important;
+  color: inherit !important;
+  font-size: inherit !important;
+  line-height: inherit !important;
+  padding: inherit !important;
+}
+
+.lrn button.lrn-mask {
+  background: transparent !important;
+  border: inherit !important;
+  padding: inherit !important;
+  border-radius: unset !important;
+}
+
 .lrn.lrn-assess .app-panel.review-screen .panel-content {
   background-color: var(--background-color) !important;
   border: .25rem solid var(--border-color) !important;
@@ -406,14 +424,4 @@ button.lrn_linereader-toggle {
 
 .pagination.lrn-assess-pagination {
   font-size: 20px !important;
-}
-
-.lrn-toolbar .lrn-wysihtml-toolbar > .lrn_btn {
-  background-color: inherit !important;
-  border-color: inherit !important;
-  border-radius: unset !important;
-  box-shadow: unset !important;
-  font-size: inherit !important;
-  line-height: inherit !important;
-  padding: inherit !important;
 }
