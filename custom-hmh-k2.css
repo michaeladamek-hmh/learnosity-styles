@@ -408,8 +408,9 @@ button.lrn_linereader-toggle {
 .lrn button.lrn-mask {
   background: transparent !important;
   border: inherit !important;
-  padding: inherit !important;
   border-radius: unset !important;
+  box-shadow: unset !important;
+  padding: inherit !important;
 }
 
 .lrn.lrn-assess .app-panel.review-screen .panel-content {

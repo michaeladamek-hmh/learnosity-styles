@@ -6,7 +6,7 @@
   --font-size: 30px;
   --button-padding-tb: 20px;
   --button-padding-lr: 28px; 
-  
+
   /* -- Universal --*/
   --primary-button-color: #065EC2;
   --secondary-button-color: #D1E4FF;
@@ -377,11 +377,13 @@
 }
 
 .lrn_linereader_overlay button,
-.lrn-annotations-c-modal button {
+.lrn-annotations-c-modal button,
+.accessibility-panel .nav-tabs button {
   background-color: inherit !important;
   border: 0 none !important;
   border-radius: unset !important;
   box-shadow: unset !important;
+  color: inherit !important;
   font-size: inherit !important;
   line-height: inherit !important;
   padding: inherit !important;
@@ -406,8 +408,9 @@ button.lrn_linereader-toggle {
 .lrn button.lrn-mask {
   background: transparent !important;
   border: inherit !important;
-  padding: inherit !important;
   border-radius: unset !important;
+  box-shadow: unset !important;
+  padding: inherit !important;
 }
 
 .lrn.lrn-assess .app-panel.review-screen .panel-content {
