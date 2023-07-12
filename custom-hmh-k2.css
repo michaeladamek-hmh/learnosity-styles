@@ -382,7 +382,10 @@
 
 .lrn_linereader_overlay button,
 .lrn-annotations-c-modal button,
-.accessibility-panel .nav-tabs button {
+.accessibility-panel .nav-tabs button,
+.accessibility-panel .lrn-dialogs-close-btn,
+.lrn-annotations-c-popover button,
+.lrn-annotations-c-popover__palette button {
   background-color: inherit !important;
   border: 0 none !important;
   border-radius: unset !important;
