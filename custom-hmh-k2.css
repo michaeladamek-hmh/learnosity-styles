@@ -134,8 +134,10 @@
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .25);
 }
 
+.lrn .lrn_player button.lrn_volume_btn,
 .lrn .lrn_player button.lrn_start_playback, 
-.lrn .lrn_player button.lrn_volume_btn {
+.lrn .lrn_player button.lrn_pause_playback,
+.lrn .lrn_player button.lrn_continue_playback {
   background-color: var(--white) !important;
   border: 1px solid var(--border-color) !important;
   color: black !important;
@@ -144,7 +146,9 @@
   padding: unset !important;
 }
 
-.lrn .lrn_player button.lrn_start_playback {
+.lrn .lrn_player button.lrn_start_playback, 
+.lrn .lrn_player button.lrn_pause_playback,
+.lrn .lrn_player button.lrn_continue_playback {
   border-radius: var(--border-radius) 0 0 var(--border-radius) !important;
 }
 
