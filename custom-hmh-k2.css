@@ -6,6 +6,7 @@
   --font-size: 30px;
   --button-padding-tb: 20px;
   --button-padding-lr: 28px; 
+
   /* -- Universal --*/
   --primary-button-color: #065EC2;
   --secondary-button-color: #D1E4FF;
@@ -93,7 +94,7 @@
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .25) !important;
   color: white !important;
   font-size: 22px !important;
-  /* line-height: 1.2 !important; */
+  line-height: 1.25 !important;
   padding: var(--button-padding-tb) var(--button-padding-lr) !important;
 }
 
@@ -375,7 +376,9 @@
   color: transparent !important;
 }
 
-.lrn_linereader_overlay button {
+.lrn_linereader_overlay button,
+.lrn-annotations-c-modal button,
+.lrn-assess-modal-content button {
   background-color: inherit !important;
   border: 0 none !important;
   border-radius: unset !important;
@@ -388,6 +391,24 @@
 button.lrn_linereader-toggle {
   width: fit-content;
   white-space: nowrap;
+}
+
+.lrn-toolbar .lrn-wysihtml-toolbar > .lrn_btn {
+  background-color: inherit !important;
+  border-color: inherit !important;
+  border-radius: unset !important;
+  box-shadow: unset !important;
+  color: inherit !important;
+  font-size: inherit !important;
+  line-height: inherit !important;
+  padding: inherit !important;
+}
+
+.lrn button.lrn-mask {
+  background: transparent !important;
+  border: inherit !important;
+  padding: inherit !important;
+  border-radius: unset !important;
 }
 
 .lrn.lrn-assess .app-panel.review-screen .panel-content {
