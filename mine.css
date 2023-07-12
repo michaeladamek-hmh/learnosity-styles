@@ -6,6 +6,7 @@
   --font-size: 30px;
   --button-padding-tb: 20px;
   --button-padding-lr: 28px; 
+  
   /* -- Universal --*/
   --primary-button-color: #065EC2;
   --secondary-button-color: #D1E4FF;
@@ -375,7 +376,8 @@
   color: transparent !important;
 }
 
-.lrn_linereader_overlay button {
+.lrn_linereader_overlay button,
+.lrn-annotations-c-modal button {
   background-color: inherit !important;
   border: 0 none !important;
   border-radius: unset !important;
