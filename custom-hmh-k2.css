@@ -378,11 +378,12 @@
 
 .lrn_linereader_overlay button,
 .lrn-annotations-c-modal button,
-.lrn-assess-modal-content button {
+.accessibility-panel .nav-tabs button {
   background-color: inherit !important;
   border: 0 none !important;
   border-radius: unset !important;
   box-shadow: unset !important;
+  color: inherit !important;
   font-size: inherit !important;
   line-height: inherit !important;
   padding: inherit !important;
