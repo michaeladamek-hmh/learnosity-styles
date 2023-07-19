@@ -137,7 +137,8 @@
 .lrn .lrn_player button.lrn_volume_btn,
 .lrn .lrn_player button.lrn_start_playback, 
 .lrn .lrn_player button.lrn_pause_playback,
-.lrn .lrn_player button.lrn_continue_playback {
+.lrn .lrn_player button.lrn_continue_playback,
+.lrn .lrm_player button:not(.lrn-annotations-c-button) {
   background-color: var(--white) !important;
   border: 1px solid var(--border-color) !important;
   color: black !important;
@@ -385,7 +386,6 @@
 .accessibility-panel .nav-tabs button,
 .accessibility-panel .lrn-dialogs-close-btn,
 .lrn-annotations-c-popover button,
-.lrn-annotations-c-popover .lrn-annotations-c-button,
 .lrn-annotations-c-popover__palette button {
   background-color: inherit !important;
   border: 0 none !important;
