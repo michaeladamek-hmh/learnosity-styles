@@ -94,7 +94,8 @@ button.lrn_validate,
 button.item-prev,
 button.item-next,
 button.lrn_btn_blue,
-button.test-submit  {
+button.test-submit,
+button.test-resume  {
   background-color: var(--primary-button-color) !important;
   border-color: var(--primary-button-color) !important;
   border-radius: var(--border-radius);
@@ -134,6 +135,7 @@ button.test-submit  {
   border-radius: var(--border-radius) !important;
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .25);
   color: white !important;
+  padding: 0.4em 0.9em !important;
 }
 
 .lrn button.close {
@@ -188,14 +190,6 @@ button.test-submit  {
   background-color: var(--background-color);
 }
 
-/* .lrn-assess .dialogs {
-  position: unset;
-  top: unset;
-  bottom: unset;
-  right: unset;
-  left: unset;
-} */
-
 .lrn-assess .lrn-dialog .lrn-dialog-body {
   position: unset;
   top: unset;
@@ -222,14 +216,6 @@ button.test-submit  {
 .lrn_question p {
   max-width: 41.25rem;
 }
-
-/* .section.pad-sml {
-  border: 0.25rem solid var(--border-color);
-} */
-
-/* .lrn.lrn-assess .lrn-region-group .lrn-region.lrn-top-left-region {
-  flex: 1 1 70%;
-} */
 
 .lrn-region-group.lrn-group-top,
 .lrn-region-group.lrn-group-middle, 
@@ -263,10 +249,7 @@ button.test-submit  {
 
 .lrn-assess .lrn_response_wrapper  {
   background-color: var(--white);
-  /* border: calc(0.25rem / 2) solid var(--border-color-dark); */
   border-radius: var(--border-radius);
-  /* box-shadow: 0 2px 2px 0 rgba(133, 63, 186, 15%) ; */
-  /* padding: calc(1.875rem + 1.025rem); */
 }
 
 .lrn_widget.lrn_mcq .lrn_mcqgroup {
