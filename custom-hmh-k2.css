@@ -82,12 +82,19 @@
   white-space: normal;
 }
 
-.lrn button,
+/* .lrn button,
 .lrn .lrn_btn,
 .lrn.lrn-assess .lrn_btn,
 .lrn button.start-test-btn,
 .lrn button.lrn_btn.item-next,
-.lrn button.lrn_btn.item-prev {
+.lrn button.lrn_btn.item-prev, */
+.lrn-group-top button,
+.lrn-group-bottom button,
+button.lrn_validate,
+button.item-prev,
+button.item-next,
+button.lrn_btn_blue,
+button.test-submit  {
   background-color: var(--primary-button-color) !important;
   border-color: var(--primary-button-color) !important;
   border-radius: var(--border-radius);
@@ -137,8 +144,7 @@
 .lrn .lrn_player button.lrn_volume_btn,
 .lrn .lrn_player button.lrn_start_playback, 
 .lrn .lrn_player button.lrn_pause_playback,
-.lrn .lrn_player button.lrn_continue_playback,
-.lrn .lrm_player button:not(.lrn-annotations-c-button) {
+.lrn .lrn_player button.lrn_continue_playback  {
   background-color: var(--white) !important;
   border: 1px solid var(--border-color) !important;
   color: black !important;
@@ -381,7 +387,7 @@
   color: transparent !important;
 }
 
-.lrn_linereader_overlay button,
+/* .lrn_linereader_overlay button,
 .lrn-annotations-c-modal button,
 .accessibility-panel .nav-tabs button,
 .accessibility-panel .lrn-dialogs-close-btn,
@@ -394,7 +400,7 @@
   font-size: inherit !important;
   line-height: inherit !important;
   padding: inherit !important;
-}
+} */
 
 button.lrn_linereader-toggle {
   width: fit-content;
