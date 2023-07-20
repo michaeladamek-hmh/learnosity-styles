@@ -6,6 +6,8 @@
   --font-size: 30px;
   --button-padding-tb: 20px;
   --button-padding-lr: 28px; 
+  --font-family: "AvenirPrimaryHMHMath";
+  --input-scale: scale(1.75);
 
   /* -- Universal --*/
   --primary-button-color: #065EC2;
@@ -58,12 +60,12 @@
 #learnosity_assess h4,
 #learnosity_assess h5,
 #learnosity_assess h6 {
-    font-family: "AvenirPrimaryHMHMath" !important;
+    font-family: var(--font-family) !important;
 } 
 
 .lrn_widget input[type="radio"],
 .lrn_widget input[type="checkbox"] {
-  transform: scale(1.75);
+  transform: var(--input-scale);
 }
 
 .lrn-assess .items .progress {
@@ -390,7 +392,7 @@ button.lrn_linereader-toggle {
   white-space: nowrap;
 }
 
-.lrn-toolbar .lrn-wysihtml-toolbar > .lrn_btn {
+/* .lrn-toolbar .lrn-wysihtml-toolbar > .lrn_btn {
   background-color: inherit !important;
   border-color: inherit !important;
   border-radius: unset !important;
@@ -407,7 +409,7 @@ button.lrn_linereader-toggle {
   border-radius: unset !important;
   box-shadow: unset !important;
   padding: inherit !important;
-}
+} */
 
 .lrn.lrn-assess .app-panel.review-screen .panel-content {
   background-color: var(--background-color) !important;
