@@ -97,7 +97,8 @@ button.item-prev,
 button.item-next,
 button.lrn_btn_blue,
 button.test-submit,
-button.test-resume  {
+button.test-resume,
+button.test-dialog-cancel  {
   background-color: var(--primary-button-color) !important;
   border-color: var(--primary-button-color) !important;
   border-radius: var(--border-radius);
