@@ -2,17 +2,18 @@
   
 :root {
   /* -- Grade Specific -- */
-  --border-radius: 0.75rem;
-  --font-size: 30px;
   --button-padding-tb: 20px;
   --button-padding-lr: 28px; 
+  --border-radius: 0.75rem;
   --font-family: "AvenirPrimaryHMHMath";
-  --input-scale: scale(1.75);
+  --font-size: 30px;
+  --input-size: scale(1.75);
 
   /* -- Universal --*/
   --primary-button-color: #065EC2;
   --secondary-button-color: #D1E4FF;
   --progress-bar: #2723F7;
+  --text-color: #424242;
 
   --background-color: #FFF;
   --background-color-purple: #F5EDFF;
@@ -27,10 +28,10 @@
   --selected-answer: #D9F9FF;
   --correct-answer: #D2F7AE;
   --incorrect-answer: #FFE6E6;
-  --text-color: #424242;
-  --white: #FFF;
+  
   --red: #DD002F;
   --green: #4A700A;
+  --white: #FFF;
 }
 
 @font-face {
@@ -65,7 +66,7 @@
 
 .lrn_widget input[type="radio"],
 .lrn_widget input[type="checkbox"] {
-  transform: var(--input-scale);
+  transform: var(--input-size);
 }
 
 .lrn-assess .items .progress {
@@ -191,22 +192,6 @@ button.test-dialog-cancel  {
 
 .lrn.lrn-assess {
   background-color: var(--background-color);
-}
-
-.lrn-assess .lrn-dialog .lrn-dialog-body {
-  position: unset;
-  top: unset;
-  bottom: unset;
-  right: unset;
-  left: unset;
-}
-
-.lrn.lrn-assess .lrn-bottom-right-region.lrn-align-top {
-  position: unset;
-  top: unset;
-  bottom: unset;
-  right: unset;
-  left: unset;
 }
 
 .section.pad-sml,
@@ -373,44 +358,10 @@ button.test-dialog-cancel  {
   color: transparent !important;
 }
 
-/* .lrn_linereader_overlay button,
-.lrn-annotations-c-modal button,
-.accessibility-panel .nav-tabs button,
-.accessibility-panel .lrn-dialogs-close-btn,
-.lrn-annotations-c-popover button:not(.lrn-annotations-color) {
-  background-color: inherit !important;
-  border: 0 none !important;
-  border-radius: unset !important;
-  box-shadow: unset !important;
-  color: inherit !important;
-  font-size: inherit !important;
-  line-height: inherit !important;
-  padding: inherit !important;
-} */
-
 button.lrn_linereader-toggle {
   width: fit-content;
   white-space: nowrap;
 }
-
-/* .lrn-toolbar .lrn-wysihtml-toolbar > .lrn_btn {
-  background-color: inherit !important;
-  border-color: inherit !important;
-  border-radius: unset !important;
-  box-shadow: unset !important;
-  color: inherit !important;
-  font-size: inherit !important;
-  line-height: inherit !important;
-  padding: inherit !important;
-}
-
-.lrn button.lrn-mask {
-  background: transparent !important;
-  border: inherit !important;
-  border-radius: unset !important;
-  box-shadow: unset !important;
-  padding: inherit !important;
-} */
 
 .lrn.lrn-assess .app-panel.review-screen .panel-content {
   background-color: var(--background-color) !important;
