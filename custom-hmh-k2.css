@@ -28,7 +28,7 @@
   --selected-answer: #D9F9FF;
   --correct-answer: #D2F7AE;
   --incorrect-answer: #FFE6E6;
-  
+
   --red: #DD002F;
   --green: #4A700A;
   --white: #FFF;
@@ -85,12 +85,6 @@
   white-space: normal;
 }
 
-/* .lrn button,
-.lrn .lrn_btn,
-.lrn.lrn-assess .lrn_btn,
-.lrn button.start-test-btn,
-.lrn button.lrn_btn.item-next,
-.lrn button.lrn_btn.item-prev, */
 .lrn-group-top button,
 .lrn-group-bottom button,
 button.lrn_validate,
