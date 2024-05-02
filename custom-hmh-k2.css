@@ -95,7 +95,7 @@ button.test-resume,
 button.test-dialog-cancel  {
   background-color: var(--primary-button-color) !important;
   border-color: var(--primary-button-color) !important;
-  border-radius: var(--border-radius);
+  border-radius: var(--border-radius) !important;
   box-shadow: var(--box-shadow) !important;
   color: white !important;
   font-size: 22px !important;
@@ -103,17 +103,17 @@ button.test-dialog-cancel  {
   padding: var(--button-padding-tb) var(--button-padding-lr) !important;
 }
 
-.lrn button:first-child {
+/* .lrn button:first-child {
   border-radius: var(--border-radius) 0 0 var(--border-radius) !important;
-}
+} 
+
+.lrn button:last-child {
+  border-radius: 0 var(--border-radius) var(--border-radius) 0 !important;
+} */
 
 .lrn button.lrn_btn.item-prev:first-child {
   line-height: 1.25;
   padding: .4em .9em !important;
-}
-
-.lrn button:last-child {
-  border-radius: 0 var(--border-radius) var(--border-radius) 0 !important;
 }
 
 .lrn button.lrn_btn.item-next:last-child {
