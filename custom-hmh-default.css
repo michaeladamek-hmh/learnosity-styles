@@ -76,12 +76,12 @@ button.test-dialog-cancel  {
   border-radius: 0 var(--border-radius) var(--border-radius) 0 !important;
 } */
 
-.lrn button.lrn_btn.item-prev:first-child {
+.lrn button.lrn_btn.item-prev {
   line-height: 1.25;
   padding: .4em .9em !important;
 }
 
-.lrn button.lrn_btn.item-next:last-child {
+.lrn button.lrn_btn.item-next {
   line-height: 1.25;
   padding: .4em .9em !important;
 }
