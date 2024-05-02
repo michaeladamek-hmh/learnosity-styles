@@ -19,6 +19,7 @@
   --background-color-dark: var(--background-color);
   --background-container: #D9EDFB;
   --background-table: #DBEFFD;
+  --box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .25);
 
   --border-color: #C0C6C8;
   --border-color-dark: #6f757a;
@@ -123,48 +124,48 @@ button.test-dialog-cancel  {
   background-color: var(--primary-button-color) !important;
   border-color: var(--primary-button-color) !important;
   border-radius: var(--border-radius);
-  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .25) !important;
+  box-shadow: var(--box-shadow) !important;
   color: white !important;
   font-size: 22px !important;
   line-height: 1.25 !important;
   padding: var(--button-padding-tb) var(--button-padding-lr) !important;
 }
 
-.lrn button:first-child {
+/* .lrn button:first-child {
   border-radius: var(--border-radius) 0 0 var(--border-radius) !important;
-}
+} */
 
 .lrn button.lrn_btn.item-prev:first-child {
   line-height: 1.25;
   padding: .4em .9em !important;
 }
 
-.lrn button:last-child {
+/* .lrn button:last-child {
   border-radius: 0 var(--border-radius) var(--border-radius) 0 !important;
-}
+} */
 
 .lrn button.lrn_btn.item-next:last-child {
   line-height: 1.25;
   padding: .4em .9em !important;
 }
 
-.lrn button:only-child {
+/* .lrn button:only-child {
   border-radius: var(--border-radius) !important;
-}
+} */
 
 .lrn button.lrn_validate,
 .lrn button.test-submit {
   background-color: var(--primary-button-color) !important;
   border-color: var(--primary-button-color) !important;
   border-radius: var(--border-radius) !important;
-  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .25);
+  box-shadow: var(--box-shadow);
   color: white !important;
   padding: 0.4em 0.9em !important;
 }
 
 .lrn button.close {
   border: 0 none !important;
-  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .25);
+  box-shadow: var(--box-shadow);
 }
 
 .lrn .lrn_player button.lrn_volume_btn,
@@ -174,7 +175,7 @@ button.test-dialog-cancel  {
   background-color: var(--white) !important;
   border: 1px solid var(--border-color) !important;
   color: black !important;
-  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .25);
+  box-shadow: var(--box-shadow);
   font-size: unset !important;
   padding: unset !important;
 }
