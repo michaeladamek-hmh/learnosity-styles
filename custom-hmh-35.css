@@ -140,11 +140,13 @@ button.test-dialog-cancel  {
 } */
 
 .lrn button.lrn_btn.item-prev {
+  border-radius: var(--border-radius) 0 0 var(--border-radius) !important;
   line-height: 1.25;
   padding: .4em .9em !important;
 }
 
 .lrn button.lrn_btn.item-next {
+  border-radius: 0 var(--border-radius) var(--border-radius) 0 !important;
   line-height: 1.25;
   padding: .4em .9em !important;
 }
