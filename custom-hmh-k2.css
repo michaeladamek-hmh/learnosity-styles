@@ -100,8 +100,12 @@ button.test-dialog-cancel  {
   color: white !important;
   font-size: 22px !important;
   line-height: 1.25 !important;
-  opacity: unset;
   padding: var(--button-padding-tb) var(--button-padding-lr) !important;
+}
+
+.lrn_btn_blue:active:after, 
+.lrn_btn_blue:focus:after {
+  opacity: unset !important;
 }
 
 /* .lrn button:first-child {
