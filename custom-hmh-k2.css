@@ -100,6 +100,7 @@ button.test-dialog-cancel  {
   color: white !important;
   font-size: 22px !important;
   line-height: 1.25 !important;
+  opacity: unset;
   padding: var(--button-padding-tb) var(--button-padding-lr) !important;
 }
 

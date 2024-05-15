@@ -65,6 +65,7 @@ button.test-dialog-cancel  {
   box-shadow: var(--box-shadow) !important;
   color: white !important;
   line-height: 1.25 !important;
+  opacity: unset;
   padding: var(--button-padding-tb) var(--button-padding-lr) !important;
 }
 
