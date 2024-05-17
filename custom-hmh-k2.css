@@ -103,9 +103,10 @@ button.test-dialog-cancel  {
   padding: var(--button-padding-tb) var(--button-padding-lr) !important;
 }
 
-.lrn_btn_blue:active:after, 
-.lrn_btn_blue:focus:after {
+.lrn_btn_blue.start-test-bt:active:after, 
+.lrn_btn_blue.start-test-bt:focus:after {
   opacity: unset !important;
+  outline: unset !important;
 }
 
 /* .lrn button:first-child {
