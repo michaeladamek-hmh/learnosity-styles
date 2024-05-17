@@ -201,9 +201,9 @@ button.test-dialog-cancel  {
   box-shadow: unset;
 }
 
-.lrn_question p {
+/* .lrn_question p {
   max-width: 41.25rem;
-}
+} */
 
 .lrn-region-group.lrn-group-top,
 .lrn-region-group.lrn-group-middle, 
