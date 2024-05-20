@@ -194,6 +194,9 @@ button.test-dialog-cancel  {
   margin-left: -1px !important;
 }
 
+.lrn_response_input_wrapper .lrn-shading-row {
+  font-size: 14px;
+}
 
 .lrn.lrn-assess {
   background-color: var(--background-color);
