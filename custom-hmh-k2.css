@@ -181,6 +181,11 @@ button.test-dialog-cancel  {
   border: 0 none !important;
 }
 
+.lrn_texteditor_editable {
+  transform: translateX(3px) !important;
+  width: calc(100% - 6px) !important;
+}
+
 .lrn_toolbar {
   background-color: var(--background-color) !important;
 }
