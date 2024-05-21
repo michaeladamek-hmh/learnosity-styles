@@ -73,6 +73,10 @@
     url("./static/sourceserifvariable-italic.ttf") format("truetype");
 }
 
+.lrn svg:not(:root) {
+  font-size: 1.5rem;
+}
+
 .lrn,
 .lrn.lrn_font_size_normal, 
 .lrn.lrn_font_size_normal .lrn {
@@ -134,6 +138,10 @@ button.test-dialog-cancel  {
 .lrn_btn_blue:after, 
 .lrn_btn_blue:after {
   border: 0 none !important;
+}
+
+.lrn_btn_drag.lrn_draggable {
+  font-size: 1.5rem;
 }
 
 /* .lrn button:first-child {
