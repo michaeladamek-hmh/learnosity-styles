@@ -108,14 +108,6 @@ button.test-dialog-cancel  {
   border: 0 none !important;
 }
 
-/* .lrn button:first-child {
-  border-radius: var(--border-radius) 0 0 var(--border-radius) !important;
-} 
-
-.lrn button:last-child {
-  border-radius: 0 var(--border-radius) var(--border-radius) 0 !important;
-} */
-
 .lrn button.lrn_btn.item-prev {
   border-radius: var(--border-radius) 0 0 var(--border-radius) !important;
   line-height: 1.25;
@@ -208,10 +200,6 @@ button.test-dialog-cancel  {
   background-color: var(--background-color);
   box-shadow: unset;
 }
-
-/* .lrn_question p {
-  max-width: 41.25rem;
-} */
 
 .lrn-region-group.lrn-group-top,
 .lrn-region-group.lrn-group-middle, 
