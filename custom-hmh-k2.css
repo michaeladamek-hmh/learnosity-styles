@@ -45,6 +45,10 @@
   font-weight: bold;
 }
 
+.lrn svg:not(:root) {
+  font-size: 1.5rem;
+}
+
 .lrn,
 .lrn.lrn_font_size_normal, 
 .lrn.lrn_font_size_normal .lrn {
