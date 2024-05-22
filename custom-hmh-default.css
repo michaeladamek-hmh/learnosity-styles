@@ -141,7 +141,7 @@ button.test-dialog-cancel  {
   color: inherit !important;
 }
 
-.lrn_btn.lrn_linereader-toggle:not(:has(~ button[style="display: none;"])) {
+.lrn_btn.lrn_linereader-toggle:not(:has(~ button[disabled="disabled"])) {
   width: calc(100% + 20px);
   min-width: auto;
   max-width: unset !important;
