@@ -201,11 +201,16 @@ button.test-dialog-cancel  {
   color: inherit !important;
 }
 
-.lrn_btn.lrn_linereader-toggle:not(:has(~ button[disabled="disabled"])) {
+.lrn-top-right-region:not(:has(~ button[disabled="disabled"])) .lrn_btn.lrn_linereader-toggle {
   width: calc(100% + 20px);
   min-width: auto;
   max-width: unset !important;
   transform: translateX(-20px);
+}
+
+.lrn_linereader-toggle {
+  width: fit-content;
+  white-space: nowrap;
 }
 
 .lrn_box_skin_wrapper {
@@ -234,10 +239,6 @@ button.test-dialog-cancel  {
   background-color: var(--background-color);
   box-shadow: unset;
 }
-
-/* .lrn_question p {
-  max-width: 41.25rem;
-} */
 
 .lrn-region-group.lrn-group-top,
 .lrn-region-group.lrn-group-middle, 
@@ -390,11 +391,6 @@ button.test-dialog-cancel  {
 .lrn_choicematrix_type_table .lrn_choicematrix_cell.lrn_incorrect:before  {
   content: unset !important;
   color: transparent !important;
-}
-
-button.lrn_linereader-toggle {
-  width: fit-content;
-  white-space: nowrap;
 }
 
 .lrn.lrn-assess .app-panel.review-screen .panel-content {
