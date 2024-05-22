@@ -169,6 +169,13 @@ button.test-dialog-cancel  {
   color: inherit !important;
 }
 
+.lrn_btn.lrn_linereader-toggle {
+  width: calc(100% + 20px);
+  min-width: auto;
+  max-width: unset !important;
+  transform: translateX(-20px);
+}
+
 .lrn_box_skin_wrapper {
   border: 0 none !important;
 }
