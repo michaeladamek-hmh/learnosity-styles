@@ -73,14 +73,6 @@ button.test-dialog-cancel  {
   border: 0 none !important;
 }
 
-/* .lrn button:first-child {
-  border-radius: var(--border-radius) 0 0 var(--border-radius) !important;
-}
-
-.lrn button:last-child {
-  border-radius: 0 var(--border-radius) var(--border-radius) 0 !important;
-} */
-
 .lrn button.lrn_btn.item-prev {
   border-radius: var(--border-radius) 0 0 var(--border-radius) !important;
   line-height: 1.25;
@@ -141,7 +133,7 @@ button.test-dialog-cancel  {
   color: inherit !important;
 }
 
-.lrn-top-right-region:not(:has(~ button[disabled="disabled"])) .lrn_btn.lrn_linereader-toggle {
+.top-right-wrapper > button:first-child:not(:last-child):not([style*="display: none;"]) {
   width: calc(100% + 20px);
   min-width: auto;
   max-width: unset !important;
