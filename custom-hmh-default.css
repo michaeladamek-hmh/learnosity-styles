@@ -134,15 +134,19 @@ button.test-dialog-cancel  {
 }
 
 .top-right-wrapper > button:first-child:not(:last-child):not([style*="display: none;"]) {
-  width: calc(100% + 20px);
+  /* width: calc(100% + 20px); */
   min-width: auto;
   max-width: unset !important;
-  transform: translateX(-20px);
+  /* transform: translateX(-20px); */
 }
 
 .lrn_linereader-toggle {
   width: fit-content;
   white-space: nowrap;
+}
+
+.lrn_linereader-toggl > .btn-label {
+  padding-right: 30px;
 }
 
 .lrn_box_skin_wrapper {
