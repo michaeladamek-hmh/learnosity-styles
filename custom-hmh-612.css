@@ -197,13 +197,6 @@ button.test-dialog-cancel  {
   color: inherit !important;
 }
 
-.top-right-wrapper > button:first-child:not(:last-child):not([style*="display: none;"]) {
-  /* width: calc(100% + 20px); */
-  min-width: auto;
-  max-width: unset !important;
-  /* transform: translateX(-20px); */
-}
-
 .lrn_linereader-toggle {
   width: fit-content;
   white-space: nowrap;

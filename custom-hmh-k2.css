@@ -169,20 +169,13 @@ button.test-dialog-cancel  {
   color: inherit !important;
 }
 
-.top-right-wrapper > button:first-child:not(:last-child):not([style*="display: none;"]) {
-  /* width: calc(100% + 20px); */
-  min-width: auto;
-  max-width: unset !important;
-  /* transform: translateX(-20px); */
-}
-
 .lrn_linereader-toggle {
   width: fit-content;
   white-space: nowrap;
 }
 
 .lrn_linereader-toggle > .btn-label {
-  padding-right: 30px;
+  padding-right: var(--button-padding-lr) !important;
 }
 
 .lrn_box_skin_wrapper {
