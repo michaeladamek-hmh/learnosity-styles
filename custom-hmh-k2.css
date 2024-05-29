@@ -234,6 +234,7 @@ button.test-dialog-cancel  {
 
 .lrn-region-group.lrn-region-group.lrn-group-middle {
   padding-bottom: unset;
+  z-index: 1;
 }
 
 .slides-control:after {
