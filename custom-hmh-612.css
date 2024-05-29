@@ -118,7 +118,6 @@ button.lrn_validate,
 button.item-prev,
 button.item-next,
 button.lrn_btn_blue,
-button.cancel,
 button.test-submit,
 button.test-resume,
 button.test-dialog-cancel  {
@@ -133,7 +132,11 @@ button.test-dialog-cancel  {
 }
 
 button.cancel {
-  background-color: inherit;
+  border-radius: var(--border-radius) !important;
+  box-shadow: var(--box-shadow) !important;
+  font-size: var(--font-size) !important;
+  line-height: 1.25 !important;
+  padding: var(--button-padding-tb) var(--button-padding-lr) !important;
 }
 
 .lrn_btn.lrn_active,
