@@ -1,0 +1,50 @@
+@import url("custom-hmh-global.css");
+
+:root {
+  /* -- Grade Specific -- */
+  --button-padding-tb: 10px;
+  --button-padding-lr: 18px; 
+  --border-radius: 0.25rem;
+  --font-face-family: "Source Sans Pro";
+  --font-family: var(--font-face-family), Arial, Helvetica, sans-serif;  
+}
+
+@font-face {
+  font-family: "Source Sans Pro";
+  font-weight: 200 900;
+  font-style: normal;
+  font-stretch: normal;
+  src: url("./static/sourcesans3vf-roman.ttf.woff2") format("woff2"),
+    url("./static/sourcesans3vf-roman.ttf.woff") format("woff"),
+    url("./static/sourcesans3vf-roman.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Source Sans Pro";
+  font-weight: 200 900;
+  font-style: italic;
+  font-stretch: normal;
+  src: url("./static/sourcesans3vf-italic.ttf.woff2") format("woff2"),
+    url("./static/sourcesans3vf-italic.ttf.woff") format("woff"),
+    url("./static/sourcesans3vf-italic.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Source Serif Pro";
+  font-weight: 200 900;
+  font-style: normal;
+  font-stretch: normal;
+  src: url("./static/sourceserifvariable-roman.ttf.woff2") format("woff2"),
+    url("./static/sourceserifvariable-roman.ttf.woff") format("woff"),
+    url("./static/sourceserifvariable-roman.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Source Serif Pro";
+  font-weight: 200 900;
+  font-style: italic;
+  font-stretch: normal;
+  src: url("./static/sourceserifvariable-italic.ttf.woff2") format("woff2"),
+    url("./static/sourceserifvariable-italic.ttf.woff") format("woff"),
+    url("./static/sourceserifvariable-italic.ttf") format("truetype");
+}
