@@ -1,4 +1,4 @@
-@import "https://michaeladamek-hmh.github.io/learnosity-styles/custom-hmh-global.css"
+@import url("https://michaeladamek-hmh.github.io/learnosity-styles/custom-hmh-global.css");
 
 :root {
   /* -- Grade Specific -- */
