@@ -78,7 +78,7 @@ button.test-dialog-cancel  {
   border-radius: var(--border-radius) !important;
   box-shadow: var(--box-shadow) !important;
   color: white !important;
-  font-size: var(--font-size, inherit) !important;
+  font-size: var(--btn-font-size, var(--font-size)) !important;
   line-height: 1.25 !important;
   padding: var(--button-padding-tb) var(--button-padding-lr) !important;
 }
@@ -86,7 +86,7 @@ button.test-dialog-cancel  {
 button.cancel {
   border-radius: var(--border-radius) !important;
   box-shadow: var(--box-shadow) !important;
-  font-size: var(--font-size, inherit) !important;
+  font-size: var(--btn-font-size, var(--font-size)) !important;
   line-height: 1.25 !important;
   padding: var(--button-padding-tb) var(--button-padding-lr) !important;
 }
