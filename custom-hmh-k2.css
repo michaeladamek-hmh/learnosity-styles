@@ -1,3 +1,5 @@
+@import "custom-hmh-global.css"
+
 :root {
   /* -- Grade Specific -- */
   --button-padding-tb: 20px;
@@ -20,5 +22,3 @@
   src: url("./static/avenirprimaryhmh-bold.otf");
   font-weight: bold;
 }
-
-@import "custom-hmh-global.css"
