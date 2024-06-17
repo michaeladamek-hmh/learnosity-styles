@@ -376,5 +376,5 @@ button.cancel {
 }
 
 .pagination.lrn-assess-pagination {
-  font-size: 20px !important;
+  font-size: calc(var(--btn-font-size, var(--font-size) * .8)) !important;
 }
