@@ -1,7 +1,7 @@
 @import url("custom-hmh-global.css");
 
 :root {
-  /* -- Grade Specific -- */
+  /* -- Grade 3-12 Specific -- */
   --button-padding-tb: 10px;
   --button-padding-lr: 18px; 
   --border-radius: 0.25rem;
@@ -9,6 +9,8 @@
   --font-family: var(--font-face-family), Arial, Helvetica, sans-serif;  
   --btn-font-size: 24px;
 }
+
+/* -- Font -- */
 
 @font-face {
   font-family: "Source Sans Pro";

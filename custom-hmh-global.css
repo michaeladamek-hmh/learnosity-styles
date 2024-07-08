@@ -1,5 +1,5 @@
 :root {
-  /* -- Universal --*/
+  /* -- Global --*/
   --primary-button-color: #065EC2;
   --secondary-button-color: #D1E4FF;
   --progress-bar: #2723F7;
@@ -102,7 +102,7 @@ button.cancel {
 }
 
 .lrn_btn_drag.lrn_draggable {
-  font-size: 1.5rem;
+  font-size: var(--font-size-draggable, inherit);
 }
 
 .lrn button.lrn_btn.item-prev {

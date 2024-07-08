@@ -1,13 +1,14 @@
 @import url("custom-hmh-global.css");
 
 :root {
-  /* -- Grade Specific -- */
+  /* -- Grade k-2 Specific -- */
   --button-padding-tb: 20px;
   --button-padding-lr: 28px; 
   --border-radius: 0.75rem;
   --font-face-family: "AvenirPrimaryHMHMath";
   --font-family: var(--font-face-family), Arial, Helvetica, sans-serif;  
   --font-size: 30px;
+  --font-size-draggable: 24px;
   --input-size: scale(1.75);
 }
 
