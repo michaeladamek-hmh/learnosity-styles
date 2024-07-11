@@ -25,6 +25,10 @@
   --white: #FFF;
 }
 
+.lrn_imageclozeassociation {
+  width: auto;
+}
+
 .lrn,
 .lrn.lrn_font_size_normal, 
 .lrn.lrn_font_size_normal .lrn {
