@@ -25,8 +25,12 @@
   --white: #FFF;
 }
 
+.css-ainlma-hintsContainer {
+  margin-bottom: 20px !important;
+}
+
 .lrn_imageclozeassociation {
-  width: auto;
+  width: auto !important;
 }
 
 .lrn,
