@@ -45,7 +45,7 @@
 
 .lrn.lrn_font_size_xxlarge, 
 .lrn.lrn_font_size_xxlarge .lrn {
-  font-size: var(24px, inherit) !important;
+  --font-size: 24px;
 }
 
 /* @layer my-layer {
