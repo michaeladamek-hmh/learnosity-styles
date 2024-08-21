@@ -34,15 +34,28 @@
 }
 
 
-.lrn-start-page,
+/* .lrn-start-page.lrn-dialog, 
+#learnosity_assess,
 .lrn-assess-content.lrn_font_size_normal,
 .lrn .lrn-assess-content, 
 .lrn .lrn_font_size_normal,
 .lrn .lrn_font_size_normal .lrn-assess-content,
 .lrn-assess-content,
 .lrn-assess-content.lrn {
-  font-size: var(--font-size, inherit) !important;
+  font-size: var(--font-size, initial) !important;
   color: var(--text-color);
+} */
+
+@layer my-layer {
+  .lrn {
+    font-size: var(--font-size, initial) !important;
+    color: var(--text-color);
+  }
+}
+
+.lrn {
+  font-size: var(--font-size, initial) !important;
+  color: red;
 }
 
 .lrn,
@@ -53,7 +66,7 @@
 #learnosity_assess h4,
 #learnosity_assess h5,
 #learnosity_assess h6 {
-  font-family: var(--font-family, inherit) !important;
+  font-family: var(--font-family, initial) !important;
   color: var(--text-color);
 } 
 
