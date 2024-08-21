@@ -36,8 +36,11 @@
 
 .lrn-start-page,
 .lrn-assess-content.lrn_font_size_normal,
-.lrn .lrn-assess-content.lrn_font_size_normal, 
-.lrn-assess-content.lrn_font_size_normal .lrn {
+.lrn .lrn-assess-content, 
+.lrn .lrn_font_size_normal,
+.lrn .lrn_font_size_normal .lrn-assess-content,
+.lrn-assess-content,
+.lrn-assess-content.lrn {
   font-size: var(--font-size, inherit) !important;
   color: var(--text-color);
 }
