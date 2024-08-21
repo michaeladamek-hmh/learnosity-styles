@@ -33,20 +33,22 @@
   width: auto !important;
 }
 
-
-/* .lrn-start-page.lrn-dialog, 
-#learnosity_assess,
-.lrn-assess-content.lrn_font_size_normal,
+.lrn
+.lrn-start-page.lrn-dialog, 
 .lrn .lrn-assess-content, 
 .lrn .lrn_font_size_normal,
-.lrn .lrn_font_size_normal .lrn-assess-content,
-.lrn-assess-content,
-.lrn-assess-content.lrn {
+.lrn .lrn_font_size_normal .lrn,
+.lrn-assess-content {
   font-size: var(--font-size, initial) !important;
   color: var(--text-color);
-} */
+}
 
-@layer my-layer {
+.lrn.lrn_font_size_xxlarge, 
+.lrn.lrn_font_size_xxlarge .lrn {
+  font-size: var(24px, inherit) !important;
+}
+
+/* @layer my-layer {
   .lrn {
     font-size: var(--font-size, initial) !important;
     color: var(--text-color);
@@ -56,7 +58,7 @@
 .lrn {
   font-size: var(--font-size, initial) !important;
   color: red;
-}
+} */
 
 .lrn,
 #learnosity_assess,
