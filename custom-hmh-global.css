@@ -33,9 +33,11 @@
   width: auto !important;
 }
 
-.lrn .lrn-assess-content, 
-.lrn-assess-content,
-.lrn-assess-content .lrn {
+
+.lrn-start-page,
+.lrn-assess-content.lrn_font_size_normal,
+.lrn .lrn-assess-content.lrn_font_size_normal, 
+.lrn-assess-content.lrn_font_size_normal .lrn {
   font-size: var(--font-size, inherit) !important;
   color: var(--text-color);
 }
@@ -48,7 +50,8 @@
 #learnosity_assess h4,
 #learnosity_assess h5,
 #learnosity_assess h6 {
-    font-family: var(--font-family, inherit) !important;
+  font-family: var(--font-family, inherit) !important;
+  color: var(--text-color);
 } 
 
 .lrn_widget input[type="radio"],
