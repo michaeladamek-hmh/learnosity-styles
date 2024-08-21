@@ -33,7 +33,6 @@
   width: auto !important;
 }
 
-.lrn,
 .lrn.lrn_font_size_normal, 
 .lrn.lrn_font_size_normal .lrn {
   font-size: var(--font-size, inherit) !important;
