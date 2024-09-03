@@ -123,11 +123,11 @@ button.test-dialog-cancel  {
   padding-left: calc(var(--button-padding-lr) + 26px) !important;
 }
 .lrn-group-top button.lrn_btn_notepad > svg {
-    height: calc(var(--font-size) + 3px) !important;
-    left: calc(var(--font-size) + -6px) !important;
+    height: calc(var(--font-size, 1em) + 3px) !important;
+    left: calc(var(--font-size, 1em) + -6px) !important;
     position: absolute !important;
-    top: calc(var(--font-size) + -10px) !important;
-    width: calc(var(--font-size) + 3px) !important;
+    top: calc(var(--font-size, 1em) + -10px) !important;
+    width: calc(var(--font-size, 1em) + 3px) !important;
 }
 
 button.cancel {
