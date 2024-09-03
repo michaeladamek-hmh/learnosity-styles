@@ -126,7 +126,7 @@ button.test-dialog-cancel  {
     height: calc(var(--font-size, 1em) + 3px) !important;
     left: calc(var(--font-size, 1em) + -6px) !important;
     position: absolute !important;
-    top: calc(var(--font-size, 1em) + -10px) !important;
+    top: calc(var(--font-size, 1em) + -12px) !important;
     width: calc(var(--font-size, 1em) + 3px) !important;
 }
 
