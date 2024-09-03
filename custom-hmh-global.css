@@ -149,6 +149,11 @@ button.cancel {
   padding: .4em .9em !important;
 }
 
+
+.lrn button.lrn_btn::before {
+  font-size: inherit !important;
+}
+
 .lrn button:only-child {
   border-radius: var(--border-radius) !important;
 }
@@ -250,7 +255,8 @@ button.cancel {
 }
 
 .lrn-region-group.lrn-group-top {
-  background-color: var(--background-color-blue);
+  background-color: var(--background-color-blue); 
+  padding-bottom: 5px !important;
 }
 
 .lrn-region-group.lrn-group-middle, 
@@ -259,6 +265,10 @@ button.cancel {
   border-radius: unset;
   border-top: unset;
   padding-top: unset;
+}
+
+.lrn-region-group.lrn-group-bottom {
+  padding-bottom: 5px !important;
 }
 
 .lrn-region-group.lrn-region-group.lrn-group-middle {
