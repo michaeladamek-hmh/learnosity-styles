@@ -115,6 +115,21 @@ button.test-dialog-cancel  {
   padding: var(--button-padding-tb) var(--button-padding-lr) !important;
 }
 
+.lrn button.lrn_btn::before {
+  font-size: inherit !important;
+}
+
+.lrn-group-top button.lrn_btn_notepad {
+  padding-left: calc(var(--button-padding-lr) + 26px) !important;
+}
+.lrn-group-top button.lrn_btn_notepad > svg {
+    height: 32px !important;
+    left: 22px !important;
+    position: absolute !important;
+    top: 20px !important;
+    width: 32px !important;
+}
+
 button.cancel {
   border-radius: var(--border-radius) !important;
   box-shadow: var(--box-shadow) !important;
@@ -147,22 +162,6 @@ button.cancel {
   border-radius: 0 var(--border-radius) var(--border-radius) 0 !important;
   line-height: 1.25;
   padding: .4em .9em !important;
-}
-
-
-.lrn button.lrn_btn::before {
-  font-size: inherit !important;
-}
-
-.lrn_btn_notepad {
-  padding-left: calc(var(--button-padding-lr) + 26px) !important;
-}
-.lrn_btn_notepad > svg {
-    height: 32px !important;
-    left: 22px !important;
-    position: absolute !important;
-    top: 20px !important;
-    width: 32px !important;
 }
 
 .lrn button:only-child {
