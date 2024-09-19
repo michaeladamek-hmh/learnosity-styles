@@ -25,6 +25,27 @@
   --white: #FFF;
 }
 
+[id*=start-page-label] {
+  background-color: var(--background-color);
+}
+
+[id*=start-page-label] .test-title-text {
+  overflow-x: auto;
+  text-overflow: initial;
+  white-space: nowrap;
+  width: auto;
+}
+
+[id*=start-page-description] {
+  height: calc(100% - 220px);
+  top: var(--top, 85px);
+  bottom: var(--bottom, 110px);
+}
+
+.lrn-dialog-footer {
+  background-color: var(--background-color);
+}
+
 .css-ainlma-hintsContainer {
   margin-bottom: 20px !important;
 }
@@ -297,6 +318,7 @@ button.cancel {
 
 .lrn_widget.lrn_mcq .lrn_mcqgroup {
   width: auto;
+  max-width: unset;
 }
 
 .lrn_widget.lrn_mcq .lrn_mcqgroup .lrn-mcq-option {
