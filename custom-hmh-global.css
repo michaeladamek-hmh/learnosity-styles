@@ -38,8 +38,8 @@
 
 [id*=start-page-description] {
   height: calc(100% - 220px);
-  top: var(--top, 85px);
-  bottom: var(--bottom, 110px);
+  top: var(--top, 85px) !important;
+  bottom: var(--bottom, 110px) !important;
 }
 
 .lrn-dialog-footer {
