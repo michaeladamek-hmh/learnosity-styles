@@ -14,12 +14,12 @@
 
 @font-face {
   font-family: "AvenirPrimaryHMHMath";
-  src: url("./static/avenirprimaryhmh.otf");
+  src: url("font/avenirprimaryhmh.otf");
   font-weight: normal;
 }
 
 @font-face {
   font-family: "AvenirPrimaryHMHMath";
-  src: url("./static/avenirprimaryhmh-bold.otf");
+  src: url("font/avenirprimaryhmh-bold.otf");
   font-weight: bold;
 }

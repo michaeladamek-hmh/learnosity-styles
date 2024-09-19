@@ -17,9 +17,9 @@
   font-weight: 200 900;
   font-style: normal;
   font-stretch: normal;
-  src: url("./static/sourcesans3vf-roman.ttf.woff2") format("woff2"),
-    url("./static/sourcesans3vf-roman.ttf.woff") format("woff"),
-    url("./static/sourcesans3vf-roman.ttf") format("truetype");
+  src: url("font/sourcesans3vf-roman.ttf.woff2") format("woff2"),
+    url("font/sourcesans3vf-roman.ttf.woff") format("woff"),
+    url("font/sourcesans3vf-roman.ttf") format("truetype");
 }
 
 @font-face {
@@ -27,9 +27,9 @@
   font-weight: 200 900;
   font-style: italic;
   font-stretch: normal;
-  src: url("./static/sourcesans3vf-italic.ttf.woff2") format("woff2"),
-    url("./static/sourcesans3vf-italic.ttf.woff") format("woff"),
-    url("./static/sourcesans3vf-italic.ttf") format("truetype");
+  src: url("font/sourcesans3vf-italic.ttf.woff2") format("woff2"),
+    url("font/sourcesans3vf-italic.ttf.woff") format("woff"),
+    url("font/sourcesans3vf-italic.ttf") format("truetype");
 }
 
 @font-face {
@@ -37,9 +37,9 @@
   font-weight: 200 900;
   font-style: normal;
   font-stretch: normal;
-  src: url("./static/sourceserifvariable-roman.ttf.woff2") format("woff2"),
-    url("./static/sourceserifvariable-roman.ttf.woff") format("woff"),
-    url("./static/sourceserifvariable-roman.ttf") format("truetype");
+  src: url("font/sourceserifvariable-roman.ttf.woff2") format("woff2"),
+    url("font/sourceserifvariable-roman.ttf.woff") format("woff"),
+    url("font/sourceserifvariable-roman.ttf") format("truetype");
 }
 
 @font-face {
@@ -47,7 +47,7 @@
   font-weight: 200 900;
   font-style: italic;
   font-stretch: normal;
-  src: url("./static/sourceserifvariable-italic.ttf.woff2") format("woff2"),
-    url("./static/sourceserifvariable-italic.ttf.woff") format("woff"),
-    url("./static/sourceserifvariable-italic.ttf") format("truetype");
+  src: url("font/sourceserifvariable-italic.ttf.woff2") format("woff2"),
+    url("font/sourceserifvariable-italic.ttf.woff") format("woff"),
+    url("font/sourceserifvariable-italic.ttf") format("truetype");
 }
