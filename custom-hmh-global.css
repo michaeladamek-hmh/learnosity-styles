@@ -29,12 +29,12 @@
   background-color: var(--background-color);
 }
 
-[id*=start-page-label] .test-title-text {
+/* [id*=start-page-label] .test-title-text {
   overflow-x: auto;
   text-overflow: initial;
   white-space: nowrap;
   width: auto;
-}
+} */
 
 [id*=start-page-description] {
   height: calc(100% - 220px);
@@ -111,10 +111,14 @@
 }
 
 .lrn.lrn-assess .test-title-text {
+  /* color: #3d3f3f; */
+  color: var(--text-color);
   font-size: 2.75rem;
   font-weight: 700;
-  color: #3d3f3f;
-  white-space: normal;
+  overflow-x: auto;
+  text-overflow: initial;
+  white-space: nowrap;
+  width: auto;
 }
 
 .lrn-group-top button,
