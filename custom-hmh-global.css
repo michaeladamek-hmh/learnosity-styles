@@ -29,7 +29,8 @@
   background-color: var(--background-color);
 }
 
-/* [id*=start-page-label] .test-title-text {
+/* These styles are in `.lrn.lrn-assess .test-title-text` line 114
+[id*=start-page-label] .test-title-text {
   overflow-x: auto;
   text-overflow: initial;
   white-space: nowrap;
@@ -111,7 +112,6 @@
 }
 
 .lrn.lrn-assess .test-title-text {
-  /* color: #3d3f3f; */
   color: var(--text-color);
   font-size: 2.75rem;
   font-weight: 700;
@@ -321,8 +321,9 @@ button.cancel {
 }
 
 .lrn_widget.lrn_mcq .lrn_mcqgroup {
-  width: auto;
+  overflow-x: unset !important;
   max-width: unset;
+  width: auto;
 }
 
 .lrn_widget.lrn_mcq .lrn_mcqgroup .lrn-mcq-option {
