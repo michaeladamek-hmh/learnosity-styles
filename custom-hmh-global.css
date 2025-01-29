@@ -80,10 +80,15 @@
   --font-size: 17px;
 }
 
-/* .lrn.lrn_font_size_normal, 
+.lrn.lrn_font_size_normal, 
 .lrn.lrn_font_size_normal .lrn {
   --font-size: 14px;
-} */
+}
+
+.lrn.lrn_font_size_small, 
+.lrn.lrn_font_size_small .lrn {
+  --font-size: 12px;
+}
 
 .lrn,
 #learnosity_assess,
@@ -285,8 +290,8 @@ button.cancel {
   border: 0.25rem solid var(--border-color);
   border-radius: var(--border-radius) var(--border-radius) 0 0;
   padding: calc(1.875rem + 0.625rem);
-  transform: translateX(calc((1.875rem + 0.625rem) * -1));
-  width: calc(100% + ((1.875rem + 0.625rem) * 2));
+  /* transform: translateX(calc((1.875rem + 0.625rem) * -1));
+  width: calc(100% + ((1.875rem + 0.625rem) * 2)); */
 }
 
 .lrn-region-group.lrn-group-top {
