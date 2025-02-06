@@ -141,7 +141,7 @@ button.test-dialog-cancel  {
   box-shadow: var(--box-shadow) !important;
   color: white !important;
   font-size: var(--font-size-btn, var(--font-size)) !important;
-  line-height: 1.25 !important;
+  line-height: 1 !important;
   padding: var(--button-padding-tb) var(--button-padding-lr) !important;
 }
 
@@ -164,7 +164,7 @@ button.cancel {
   border-radius: var(--border-radius) !important;
   box-shadow: var(--box-shadow) !important;
   font-size: var(--font-size-btn, var(--font-size)) !important;
-  line-height: 1.25 !important;
+  line-height: 1 !important;
   padding: var(--button-padding-tb) var(--button-padding-lr) !important;
 }
 
@@ -184,13 +184,13 @@ button.cancel {
 
 .lrn button.lrn_btn.item-prev {
   border-radius: var(--border-radius) 0 0 var(--border-radius) !important;
-  line-height: 1.25;
+  line-height: 1;
   padding: .4em .9em !important;
 }
 
 .lrn button.lrn_btn.item-next {
   border-radius: 0 var(--border-radius) var(--border-radius) 0 !important;
-  line-height: 1.25;
+  line-height: 1;
   padding: .4em .9em !important;
 }
 
