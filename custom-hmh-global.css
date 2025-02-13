@@ -81,16 +81,19 @@
 .lrn.lrn_font_size_large, 
 .lrn.lrn_font_size_large .lrn {
   --font-size: 17px;
+  --input-size: scale(1.5);
 }
 
 .lrn.lrn_font_size_normal, 
 .lrn.lrn_font_size_normal .lrn {
   --font-size: 14px;
+  --input-size: scale(1.5);
 }
 
 .lrn.lrn_font_size_small, 
 .lrn.lrn_font_size_small .lrn {
   --font-size: 12px;
+  --input-size: scale(1.25);
 }
 
 .lrn,
