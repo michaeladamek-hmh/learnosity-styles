@@ -71,11 +71,13 @@
 .lrn.lrn_font_size_xxlarge, 
 .lrn.lrn_font_size_xxlarge .lrn {
   --font-size: 24px;
+  --input-size: scale(2);
 }
 
 .lrn.lrn_font_size_xlarge, 
 .lrn.lrn_font_size_xlarge .lrn {
   --font-size: 20px;
+  --input-size: scale(1.75);
 }
 
 .lrn.lrn_font_size_large, 
@@ -87,13 +89,13 @@
 .lrn.lrn_font_size_normal, 
 .lrn.lrn_font_size_normal .lrn {
   --font-size: 14px;
-  --input-size: scale(1.5);
+  --input-size: scale(1.25);
 }
 
 .lrn.lrn_font_size_small, 
 .lrn.lrn_font_size_small .lrn {
   --font-size: 12px;
-  --input-size: scale(1.25);
+  --input-size: scale(1);
 }
 
 .lrn,
