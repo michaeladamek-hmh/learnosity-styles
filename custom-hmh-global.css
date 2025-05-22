@@ -86,6 +86,10 @@
   --input-size: scale(1.5);
 }
 
+/* 
+There is no normal class name. F
+ont-size and input-size are set in grade specific css files.
+*/
 .lrn.lrn_font_size_normal, 
 .lrn.lrn_font_size_normal .lrn {
   --font-size: 14px;

@@ -7,7 +7,7 @@
   --border-radius: 0.25rem;
   --font-face-family: "Source Sans Pro";
   --font-family: var(--font-face-family), Arial, Helvetica, sans-serif;  
-  --font-size: 24px;
+  /* --font-size: 24px; Original HMH recmmendation */
   --font-size: 14px;
   --input-size: scale(1.25);
 }
