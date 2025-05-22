@@ -5,9 +5,9 @@
   --button-padding-tb: 20px;
   --button-padding-lr: 28px; 
   --border-radius: 0.75rem;
-  --font-face-family: "AvenirPrimaryHMHMath";
+  --font-face-family: "AvenirPrimaryHMHM";
   --font-family: var(--font-face-family), Arial, Helvetica, sans-serif;  
-  --font-size: 30px;
+  /* --font-size: 30px; Original HMH recmmendation */
   --font-size: 14px;
   --font-size-btn: 30px;
   --font-size-draggable: 24px;
@@ -15,14 +15,14 @@
 }
 
 @font-face {
-  font-family: "AvenirPrimaryHMHMath";
+  font-family: "AvenirPrimaryHMHM";
 
   src: url("https://www.hmhco.com/ui/static_avenirprimaryhmh.otf");
   font-weight: normal;
 }
 
 @font-face {
-  font-family: "AvenirPrimaryHMHMath";
+  font-family: "AvenirPrimaryHMHM";
   src: ulr("https://www.hmhco.com/ui/static_avenirprimaryhmh-bold.otf");
   font-weight: bold;
 }
