@@ -15,14 +15,14 @@
 }
 
 @font-face {
-  font-family: "AvenirPrimaryHMHM";
+  font-family: "AvenirPrimaryHMHMMath";
 
   src: url("https://www.hmhco.com/ui/static_avenirprimaryhmh.otf");
   font-weight: normal;
 }
 
 @font-face {
-  font-family: "AvenirPrimaryHMHM";
+  font-family: "AvenirPrimaryHMHMMath";
   src: ulr("https://www.hmhco.com/ui/static_avenirprimaryhmh-bold.otf");
   font-weight: bold;
 }
